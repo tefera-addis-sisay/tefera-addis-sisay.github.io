@@ -40,7 +40,7 @@ author:
   orcid            : "https://orcid.org/my-orcid?orcid=0009-0005-7483-7377"
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+sno"
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+sno"
   researchgate     : "https://www.researchgate.net/profile/Tefera-Addis-Sisay-3?ev=hdr_xprf"# URL
   scopus           : # URL
   zotero           : # URL
