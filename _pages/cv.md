@@ -10,19 +10,7 @@ hide_title: true
 
 {% include base_path %}
 
-<style>
-.cv-section {
-  color: #1a73e8;   /* BLUE */
-  font-size: 1.5em;
-  font-weight: bold;
-  margin-top: 30px;
-  margin-bottom: 10px;
-  border-bottom: 2px solid #e0e0e0;
-  padding-bottom: 5px;
-}
-</style>
-
-<h2 class="cv-section">Education</h2>
+## Education
 
 * Ph.D in Version Control Theory, GitHub University, 2018 (expected)  
 * M.S. in Jekyll, GitHub University, 2014  
@@ -30,7 +18,7 @@ hide_title: true
 
 ---
 
-<h2 class="cv-section">Work Experience</h2>
+## Work Experience
 
 * Spring 2024: Academic Pages Collaborator  
   * GitHub University  
@@ -49,7 +37,7 @@ hide_title: true
 
 ---
 
-<h2 class="cv-section">Skills</h2>
+## Skills
 
 * Skill 1  
 * Skill 2  
@@ -60,24 +48,30 @@ hide_title: true
 
 ---
 
-<h2 class="cv-section">Publications</h2>
+## Publications
 
-... your existing loop ...
-
----
-
-<h2 class="cv-section">Talks</h2>
-
-... your existing loop ...
+{% for post in site.publications reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}
 
 ---
 
-<h2 class="cv-section">Teaching</h2>
+## Talks
 
-... your existing loop ...
+{% for post in site.talks reversed %}
+  {% include archive-single-talk-cv.html %}
+{% endfor %}
 
 ---
 
-<h2 class="cv-section">Service and Leadership</h2>
+## Teaching
 
-* Currently signed in to 43 different slack teams
+{% for post in site.teaching reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}
+
+---
+
+## Service and Leadership
+
+* Currently signed in to 43 different Slack teams
