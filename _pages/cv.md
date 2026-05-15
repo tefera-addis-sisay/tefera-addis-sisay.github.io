@@ -1,97 +1,63 @@
 ---
 layout: archive
-title: ""
 permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
-hide_title: true
 ---
 
 {% include base_path %}
 
-<style>
-.cv-section {
-  color: #1a73e8;
-  font-size: 1.4em;
-  margin-top: 25px;
-  border-bottom: 2px solid #e0e0e0;
-  padding-bottom: 5px;
-}
+Education
+======
+* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* M.S. in Jekyll, GitHub University, 2014
+* B.S. in GitHub, GitHub University, 2012
 
-.cv-content a {
-  color: #1a73e8;
-  text-decoration: none;
-}
+Work experience
+======
+* Spring 2024: Academic Pages Collaborator
+  * GitHub University
+  * Duties includes: Updates and improvements to template
+  * Supervisor: The Users
 
-.cv-content a:hover {
-  text-decoration: underline;
-}
-</style>
+* Fall 2015: Research Assistant
+  * GitHub University
+  * Duties included: Merging pull requests
+  * Supervisor: Professor Hub
 
-<div class="cv-content">
+* Summer 2015: Research Assistant
+  * GitHub University
+  * Duties included: Tagging issues
+  * Supervisor: Professor Git
+  
+Skills
+======
+* Skill 1
+* Skill 2
+  * Sub-skill 2.1
+  * Sub-skill 2.2
+  * Sub-skill 2.3
+* Skill 3
 
-<h2 class="cv-section">Education</h2>
-
-* **MEng in Computer Science** — <a href="https://www.sutd.edu.sg" target="_blank">Singapore University of Technology and Design (SUTD)</a>, 2026  
-* **MSc in Computer Science (Cybersecurity Track)** — <a href="https://www.unitn.it/en" target="_blank">Università di Trento</a>, 2024  
-* **BSc in Software Engineering** — <a href="https://www.bdu.edu.et" target="_blank">Bahir Dar University</a>, 2019  
-
----
-
-<h2 class="cv-section">Professional Experience</h2>
-
-* **Lecturer** — Bahir Dar Institute of Technology (BiT), Bahir Dar University  
-  • 2026 – Present  
-
----
-
-<h2 class="cv-section">Research Interests</h2>
-
-* Cybersecurity  
-* Intelligent Communication Systems  
-* Networked Infrastructures  
-* O-RAN Security  
-* Performance Degradation Detection (Non-RT RIC)  
-* Real-time Anomaly Detection in Telecom Systems  
-* VES (VNF Event Streaming) Systems  
-* Data Processing and Monitoring (InfluxDB, Grafana)  
-* Adversarial Machine Learning (Data Poisoning & Pipeline Manipulation)
-
----
-
-<h2 class="cv-section">Research Focus</h2>
-
-My research focuses on real-time anomaly detection in virtualized telecom environments and VES-based systems. I also explore security evaluation using adversarial machine learning, including data poisoning and ML pipeline manipulation techniques.
-
----
-
-<h2 class="cv-section">Publications</h2>
-
-<ul>
-{% for post in site.publications reversed %}
-  {% include archive-single-cv.html %}
-{% endfor %}
-</ul>
-
----
-
-<h2 class="cv-section">Talks</h2>
-
-<ul>
-{% for post in site.talks reversed %}
-  {% include archive-single-talk-cv.html %}
-{% endfor %}
-</ul>
-
----
-
-<h2 class="cv-section">Teaching</h2>
-
-<ul>
-{% for post in site.teaching reversed %}
-  {% include archive-single-cv.html %}
-{% endfor %}
-</ul>
-
-</div>
+Publications
+======
+  <ul>{% for post in site.publications reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+  
+Talks
+======
+  <ul>{% for post in site.talks reversed %}
+    {% include archive-single-talk-cv.html  %}
+  {% endfor %}</ul>
+  
+Teaching
+======
+  <ul>{% for post in site.teaching reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+  
+Service and leadership
+======
+* Currently signed in to 43 different slack teams
