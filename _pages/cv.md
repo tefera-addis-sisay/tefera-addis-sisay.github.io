@@ -1,65 +1,40 @@
----
-layout: archive
-title: ""
-permalink: /cv/
-author_profile: true
-redirect_from:
-  - /resume
-hide_title: true
----
-
-{% include base_path %}
-
-<style>
-.cv-section {
-  color: #1a73e8;
-  font-size: 1.4em;
-  margin-top: 25px;
-  border-bottom: 2px solid #e0e0e0;
-  padding-bottom: 5px;
-}
-
-.cv-subtitle {
-  color: #444;
-}
-</style>
-
-<div class="cv-subtitle">
 <h2 class="cv-section">Education</h2>
 
-* MEng in Computer Science, <a href="https://www.sutd.edu.sg" target="_blank">Singapore University of Technology and Design</a>, 2026  
-* M.S. in Computer Science (Cybersecurity track), <a href="https://www.unitn.it/en" target="_blank">Università di Trento</a>, 2024  
-* B.S. in Software Engineering, <a href="https://www.bdu.edu.et" target="_blank">Bahir Dar University</a>, 2019  
+* **MEng in Computer Science** — <a href="https://www.sutd.edu.sg" target="_blank">Singapore University of Technology and Design</a>, 2026  
+* **MSc in Computer Science (Cybersecurity Track)** — <a href="https://www.unitn.it/en" target="_blank">Università di Trento</a>, 2024  
+* **BSc in Software Engineering** — <a href="https://www.bdu.edu.et" target="_blank">Bahir Dar University</a>, 2019  
 
 ---
 
 <h2 class="cv-section">Work Experience</h2>
 
-* Spring 2024: Academic Pages Collaborator  
-  * GitHub University  
-  * Duties includes: Updates and improvements to template  
-  * Supervisor: The Users  
+* **Spring 2024 — Academic Pages Collaborator**  
+  GitHub University  
+  • Updated and improved template system  
+  • Maintained documentation and structure  
+  • Supervisor: The Users  
 
-* Fall 2015: Research Assistant  
-  * GitHub University  
-  * Duties included: Merging pull requests  
-  * Supervisor: Professor Hub  
+* **Fall 2015 — Research Assistant**  
+  GitHub University  
+  • Assisted in codebase maintenance and pull request management  
+  • Supported issue tracking and debugging workflows  
+  • Supervisor: Professor Hub  
 
-* Summer 2015: Research Assistant  
-  * GitHub University  
-  * Duties included: Tagging issues  
-  * Supervisor: Professor Git  
+* **Summer 2015 — Research Assistant**  
+  GitHub University  
+  • Managed issue tagging and repository organization  
+  • Supported project workflow improvements  
+  • Supervisor: Professor Git  
 
 ---
 
 <h2 class="cv-section">Skills</h2>
 
-* Skill 1  
-* Skill 2  
-  * Sub-skill 2.1  
-  * Sub-skill 2.2  
-  * Sub-skill 2.3  
-* Skill 3  
+* **Programming:** Skill 1, Skill 2  
+  • Sub-skill 2.1  
+  • Sub-skill 2.2  
+  • Sub-skill 2.3  
+* **Additional Skill:** Skill 3  
 
 ---
 
@@ -95,5 +70,4 @@ hide_title: true
 
 <h2 class="cv-section">Service and Leadership</h2>
 
-* Currently signed in to 43 different Slack teams
-</div>
+* Active participation in academic and collaborative development environments
