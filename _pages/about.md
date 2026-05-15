@@ -9,8 +9,13 @@ redirect_from:
 
 ## Resume
 
-Tefera Addis Sisay is a Lecturer at Bahir Dar University, Ethiopia. He holds an MEng from the Singapore University of Technology and Design (SUTD) and an MSc from the University of Trento, Italy. His research interests include cybersecurity, intelligent communication systems, and networked infrastructures, with a current focus on O-RAN security, performance degradation detection using Non-RT RIC, and real-time anomaly detection in virtualized telecom environments. He also works on VES (VNF Event Streaming) systems, including data processing and monitoring using tools such as InfluxDB and Grafana, and investigates adversarial scenarios such as data poisoning and machine learning pipeline manipulation for security evaluation. His broader interests include deep learning applications in neuroscience, particularly Spiking Neural Networks (SNNs), and AI-driven security for next-generation networks.
+Tefera Addis Sisay is a Lecturer at [Bahir Dar University](https://www.bdu.edu.et), Ethiopia. He holds an MEng from the [Singapore University of Technology and Design (SUTD)](https://www.sutd.edu.sg) and an MSc from the [University of Trento](https://www.unitn.it/en).
 
+His research interests include cybersecurity, intelligent communication systems, and networked infrastructures, with a current focus on O-RAN security and performance degradation detection using Non-RT RIC.
+
+He works on real-time anomaly detection in virtualized telecom environments and VES (VNF Event Streaming) systems, including data processing and monitoring using tools such as InfluxDB and Grafana.
+
+His research also explores adversarial machine learning scenarios such as data poisoning and machine learning pipeline manipulation for security evaluation. Broader interests include deep learning applications in neuroscience, particularly Spiking Neural Networks (SNNs), and AI-driven security for next-generation networks.
 ---
 
 ## Professional Experience
