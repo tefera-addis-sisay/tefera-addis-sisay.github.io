@@ -25,23 +25,23 @@ author:
   avatar           : "profile.png"
   name             : "Tefera Addis SISAY"
   pronouns         : # example: "him"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "Lecturer at Bahir Dar Institute of Technology (BiT), Bahir Dar, Ethiopia."
   location         : "Ethiopia"
-  employer         : "Bahir Dar University"
+  employer         : "Bahir Dar Institute of Technology"
   uri              : # URL
   email            : "tefera.addis@bdu.edu.et" 
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?view_op=new_articles&hl=en&imq=Tefera+Addis#"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/my-orcid?orcid=0009-0005-7483-7377"
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
+  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+sno"
+  researchgate     : "https://www.researchgate.net/profile/Tefera-Addis-Sisay-3?ev=hdr_xprf"# URL
   scopus           : # URL
   zotero           : # URL
 
