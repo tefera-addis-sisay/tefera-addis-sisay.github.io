@@ -9,9 +9,9 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Eng. "
+title                    : "Eng. Tefera Addis"
 title_separator          : "-"
-name                     : &name "Tefera Addis SISAY"
+name                     : &name "Tefera Addis"
 description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://tefera-addis-sisay.github.io
 baseurl                  : ""
@@ -23,7 +23,7 @@ repository               : "tefera-addis-sisay/tefera-addis-sisay.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Tefera Addis SISAY"
   pronouns         : # example: "him"  
   bio              : "Short biography for the left-hand sidebar"
   location         : "Ethiopia"
