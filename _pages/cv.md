@@ -12,66 +12,84 @@ hide_title: true
 
 ## Education
 
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)  
-* M.S. in Jekyll, GitHub University, 2014  
-* B.S. in GitHub, GitHub University, 2012  
+* MEng in Computer Science — Singapore University of Technology and Design (SUTD), 2026  
+* MSc in Computer Science (Cybersecurity Track) — Università di Trento, 2024  
+* BSc in Software Engineering — Bahir Dar University, 2019  
 
 ---
 
-## Work Experience
+## Professional Experience
 
-* Spring 2024: Academic Pages Collaborator  
-  * GitHub University  
-  * Duties includes: Updates and improvements to template  
-  * Supervisor: The Users  
-
-* Fall 2015: Research Assistant  
-  * GitHub University  
-  * Duties included: Merging pull requests  
-  * Supervisor: Professor Hub  
-
-* Summer 2015: Research Assistant  
-  * GitHub University  
-  * Duties included: Tagging issues  
-  * Supervisor: Professor Git  
+* Lecturer — Bahir Dar Institute of Technology (BiT), Bahir Dar University, Ethiopia (2026 – Present)
 
 ---
 
-## Skills
+## Research Interests
 
-* Skill 1  
-* Skill 2  
-  * Sub-skill 2.1  
-  * Sub-skill 2.2  
-  * Sub-skill 2.3  
-* Skill 3  
+* Cybersecurity in Communication Systems  
+* O-RAN Security and Intelligent RAN Monitoring  
+* Performance Degradation Detection (Non-RT RIC)  
+* VES (VNF Event Streaming) Systems  
+* Real-time Network Anomaly Detection  
+* Telecom Network Observability  
+* Data-driven Security Analytics  
+* Adversarial Machine Learning in Telecom Systems  
+
+---
+
+## Research Activities
+
+* Development of Python-based VES Collector for telecom event ingestion and processing  
+* Integration of Wireshark with containerized O-RAN environments for traffic analysis  
+* Design of real-time anomaly detection pipelines for virtualized telecom systems  
+* Research on security testing, attack simulation, and ML-based intrusion detection  
+* Implementation of Kafka + InfluxDB-based observability and telemetry systems  
+
+---
+
+## Technical Skills
+
+* Programming: Python, Bash  
+* Networking Tools: Wireshark  
+* Streaming & Data Systems: Kafka, InfluxDB  
+* Visualization: Grafana  
+* Containerization: Docker, Kubernetes (Minikube)  
+* Platforms: Linux, Virtualized Telecom Environments  
 
 ---
 
 ## Publications
 
+<ul>
 {% for post in site.publications reversed %}
   {% include archive-single-cv.html %}
 {% endfor %}
+</ul>
 
 ---
 
 ## Talks
 
+<ul>
 {% for post in site.talks reversed %}
   {% include archive-single-talk-cv.html %}
 {% endfor %}
+</ul>
 
 ---
 
 ## Teaching
 
+<ul>
 {% for post in site.teaching reversed %}
   {% include archive-single-cv.html %}
 {% endfor %}
+</ul>
 
 ---
 
-## Service and Leadership
+## Academic Service
 
-* Currently signed in to 43 different Slack teams
+* Supervision of undergraduate research projects  
+* Teaching and lab support in computing and cybersecurity courses  
+* Participation in telecom and network security research activities  
