@@ -9,7 +9,7 @@ redirect_from:
 
 ## Resume
 
-Ezekiel Soremekun is an Assistant Professor at the ISTD Pillar, Singapore University of Technology and Design (SUTD), Singapore. He was previously a Lecturer at RHUL, UK. Before then, he was a Research Scientist at SnT, University of Luxembourg, Luxembourg. He holds a PhD from Saarland University and CISPA Helmholtz Center for Information Security.
+Tefera Addis Sisay is a Lecturer at Bahir Dar University, Ethiopia. He holds an MEng from the Singapore University of Technology and Design (SUTD) and an MSc from the University of Trento, Italy. His research interests include cybersecurity, intelligent communication systems, and networked infrastructures, with a current focus on O-RAN security, performance degradation detection using Non-RT RIC, and real-time anomaly detection in virtualized telecom environments. He also works on VES (VNF Event Streaming) systems, including data processing and monitoring using tools such as InfluxDB and Grafana, and investigates adversarial scenarios such as data poisoning and machine learning pipeline manipulation for security evaluation. His broader interests include deep learning applications in neuroscience, particularly Spiking Neural Networks (SNNs), and AI-driven security for next-generation networks.
 
 ---
 
