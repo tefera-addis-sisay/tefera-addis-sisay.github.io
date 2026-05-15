@@ -6,9 +6,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
-## Resume
-
 Tefera Addis Sisay is a Lecturer at [Bahir Dar University](https://www.bdu.edu.et), Ethiopia. He holds an MEng from the [Singapore University of Technology and Design (SUTD)](https://www.sutd.edu.sg) and an MSc from the [University of Trento](https://www.unitn.it/en).
 
 His research interests include cybersecurity, intelligent communication systems, and networked infrastructures, with a current focus on O-RAN security and performance degradation detection using Non-RT RIC.
