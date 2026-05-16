@@ -9,7 +9,19 @@ redirect_from:
 
 Tefera Addis Sisay is a Lecturer at [Bahir Dar University](https://www.bdu.edu.et), Ethiopia. He earned an MEng in Information Systems Technology and Design from the [Singapore University of Technology and Design (SUTD)](https://www.sutd.edu.sg) and an MSc in Computer Science from the [University of Trento](https://www.unitn.it/en).  
 
-His research interests include cybersecurity, intelligent communication systems, and networked infrastructures, with a particular focus on O-RAN security, anomaly detection, and performance degradation analysis using Non-RT RIC architectures. He is also a member of the Cybersecurity Group within the [ICT4D Research Group](https://ict4d.bdu.edu.et/people/).
+His research focuses on cybersecurity, intelligent communication systems, and networked infrastructures, with particular interest in O-RAN security, anomaly detection, and performance degradation analysis using Non-RT RIC architectures. His broader research interests include cyber-physical systems and IoT, wireless communications security, machine learning, smartphone security and privacy, and intelligent networked systems. He is also a member of the Cybersecurity Group within the [ICT4D Research Group](https://ict4d.bdu.edu.et/people/).
+
+---
+
+## Research Interests
+
+- Cybersecurity and Network Security  
+- O-RAN Security and Intelligent Communication Systems  
+- Cyber-Physical Systems and IoT  
+- Wireless Communications Security  
+- Machine Learning  
+- Smartphone Security and Privacy  
+- Networked Infrastructures and Distributed Systems  
 
 ---
 
