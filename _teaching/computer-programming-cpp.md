@@ -8,30 +8,58 @@ date: 2025-09-01
 location: "Bahir Dar, Ethiopia"
 ---
 
-## Course Description
 This course introduces fundamental concepts of computer programming using the C++ programming language. It focuses on problem-solving, structured programming, and object-oriented programming principles.
 
-## Learning Objectives
+---
+
+Course Description
+======
+
+This course introduces fundamental concepts of computer programming using C++.
+Students learn how to design algorithms, write structured programs, and develop object-oriented solutions.
+
+---
+
+Learning Objectives
+======
+
 By the end of this course, students will be able to:
+
 - Understand basic programming concepts
 - Write, compile, and debug C++ programs
-- Apply control structures and functions
-- Use object-oriented programming (OOP) concepts
-- Develop small to medium-scale software applications
+- Apply control structures (if, loops)
+- Use functions and modular design
+- Implement object-oriented programming concepts
+- Develop small software applications
 
-## Topics Covered
+---
+
+Topics Covered
+======
+
 - Introduction to programming and C++
 - Variables, data types, and operators
-- Control structures (if, loops)
-- Functions and modular programming
+- Control structures (if, switch, loops)
+- Functions and recursion
 - Arrays and strings
 - Pointers and memory management
 - Object-Oriented Programming (classes and objects)
 - Inheritance and polymorphism
 - File handling in C++
 
-## Assessment Methods
+---
+
+Assessment
+======
+
 - Assignments: 30%
-- Lab exercises: 20%
+- Lab work: 20%
 - Midterm exam: 20%
 - Final exam: 30%
+
+---
+
+Teaching Notes
+======
+
+This course emphasizes hands-on programming practice and weekly lab exercises. Students are expected to write code regularly and complete programming assignments.
