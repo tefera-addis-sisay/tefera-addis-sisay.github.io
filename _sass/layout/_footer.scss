@@ -8,32 +8,21 @@
   color: var(--global-text-color-light);
 
   float: left;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 3em;
+  margin: 2em 0 0 0;
   width: 100%;
   clear: both;
 
-  /* keep footer in normal document flow so custom widgets do not overlap content */
   height: auto;
+  position: relative;
+  bottom: auto;
 
-  /* keep the footer on the bottom of the page */
-  position: fixed;
-  bottom: 0;
-
-  -webkit-animation: intro 0.3s both;
-          animation: intro 0.3s both;
-  -webkit-animation-delay: 0.45s;
-          animation-delay: 0.45s;
   border-top: 1px solid var(--global-dark-border-color);
 
   footer {
     @include clearfix;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1em;
+    margin: auto;
     max-width: 100%;
-    padding: 0 1em 1em;
+    padding: 0.3em 1em; /* smaller height */
 
     @include breakpoint($x-large) {
       max-width: $x-large;
@@ -54,43 +43,39 @@
   .far,
   .fal {
     color: var(--global-text-color-light);
+    font-size: 0.85em; /* smaller icons */
   }
+}
+
+.page__content {
+  padding-bottom: 2rem;
 }
 
 .page__footer-copyright {
   font-family: $global-font-family;
-  font-size: $type-size-7;
+  font-size: 0.65rem; /* smaller text */
 }
 
 .page__footer-follow {
   ul {
     margin: 0;
     padding: 0;
-    list-style-type: none;
+    list-style: none;
   }
 
   li {
     display: inline-block;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-family: $sans-serif-narrow;
-    font-size: $type-size-6;
+    padding: 2px 0;
+    font-size: 0.7rem; /* smaller links */
     text-transform: uppercase;
   }
 
-  li + li:before {
-    content: "";
-    padding-right: 5px;
-  }
-
   a {
-    padding-right: 10px;
-    font-weight: bold;
+    padding-right: 6px;
+    font-weight: 600;
   }
 
-  .social-icons {
-    a {
-      white-space: nowrap;
-    }
+  .social-icons a {
+    white-space: nowrap;
   }
 }
