@@ -10,28 +10,30 @@
   float: left;
   margin-left: 0;
   margin-right: 0;
-  margin-top: 2em;   /* smaller top gap */
+  margin-top: 3em;
   width: 100%;
   clear: both;
 
+  /* keep footer in normal document flow so custom widgets do not overlap content */
   height: auto;
-  position: relative;
-  bottom: auto;
+
+  /* keep the footer on the bottom of the page */
+  position: fixed;
+  bottom: 0;
 
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
   -webkit-animation-delay: 0.45s;
           animation-delay: 0.45s;
-
   border-top: 1px solid var(--global-dark-border-color);
 
   footer {
     @include clearfix;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 0.5em;
+    margin-top: 1em;
     max-width: 100%;
-    padding: 0 1em 0.5em;   /* smaller padding */
+    padding: 0 1em 1em;
 
     @include breakpoint($x-large) {
       max-width: $x-large;
@@ -52,22 +54,14 @@
   .far,
   .fal {
     color: var(--global-text-color-light);
-    font-size: 0.9em;   /* smaller icons */
   }
 }
 
-/* keep content clear of footer */
-.page__content {
-  padding-bottom: 3rem;
-}
-
-/* smaller copyright text */
 .page__footer-copyright {
   font-family: $global-font-family;
-  font-size: 0.7rem;
+  font-size: $type-size-7;
 }
 
-/* smaller follow/social links */
 .page__footer-follow {
   ul {
     margin: 0;
@@ -77,24 +71,26 @@
 
   li {
     display: inline-block;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     font-family: $sans-serif-narrow;
-    font-size: 0.75rem;   /* smaller text */
+    font-size: $type-size-6;
     text-transform: uppercase;
   }
 
   li + li:before {
     content: "";
-    padding-right: 3px;
+    padding-right: 5px;
   }
 
   a {
-    padding-right: 6px;   /* less spacing */
+    padding-right: 10px;
     font-weight: bold;
   }
 
-  .social-icons a {
-    white-space: nowrap;
+  .social-icons {
+    a {
+      white-space: nowrap;
+    }
   }
 }
