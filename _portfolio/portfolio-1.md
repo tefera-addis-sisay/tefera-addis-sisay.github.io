@@ -1,69 +1,55 @@
 ---
 title: "Portfolio item number 1"
 excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-collection: portfolio
+collection: projects
 ---
-## About Me
+## Projects
 
-Tefera Addis Sisay is a Lecturer at **Bahir Dar University**, Ethiopia.
+### O-RAN Security & Intelligent Network Monitoring
+Research and development of anomaly detection and performance degradation analysis in O-RAN systems using Non-RT RIC architectures.
 
-He holds an MEng from the Singapore University of Technology and Design (SUTD), Singapore, and an MSc from the University of Trento, Italy.
-
-His research interests include **cybersecurity**, **intelligent communication systems**, and **networked infrastructures**, with a current focus on **O-RAN security**, **anomaly detection**, and **intelligent network monitoring** in next-generation telecom systems.
-
-He applies **data-driven methods and machine learning techniques** to improve the security, reliability, and observability of complex communication networks.
-
----
-
-## News
-
-- **[2026]** Active work on real-time O-RAN security monitoring and VES-based anomaly detection pipelines.
-- **[2025]** Developed a Python-based VES Collector for automated ingestion and processing of network events.
-- **[2025]** Integrated Wireshark with containerized O-RAN environments for traffic analysis and attack detection experiments.
-- **[2025]** Ongoing research on Kafka + InfluxDB-based observability systems for telecom security analytics.
+- Focus: network intelligence, security analytics, and RAN optimization  
+- Technologies: Python, ML models, containerized network simulation  
+- Related: [O-RAN Alliance](https://www.o-ran.org/)
 
 ---
 
-## Research Interests
+### VES Collector for Network Telemetry
+Design and implementation of a Python-based VES (Virtualized Event Streaming) Collector for receiving, processing, and analyzing RAN events.
 
-My research focuses on building **secure, intelligent, and observable communication systems**.
-
-- O-RAN Security and Intelligent RAN Monitoring  
-- VES Event Processing and Anomaly Detection Pipelines  
-- Network Security Testing and Attack Simulation  
-- AI-driven Network Observability and Telemetry Analytics  
-- Machine Learning for Performance Degradation Detection in Telecom Systems  
-
-**Tools & Technologies:** Kafka, InfluxDB, Wireshark, Docker, Kubernetes (Minikube), Python, ML frameworks.
+- Real-time event ingestion and processing pipeline  
+- Integration with monitoring systems (Kafka / streaming pipelines)  
+- Security testing and attack simulation on event streams  
+- Related: [ONAP VES Documentation](https://docs.onap.org/)
 
 ---
 
-## Research Vision
+### Network Traffic Monitoring & Attack Detection
+Development of tools for capturing and analyzing network traffic using Wireshark-integrated environments for security research.
 
-The overarching goal is to design **intelligent and automated methods** for validating and securing modern communication systems.
-
-Key directions include:
-
-- Real-time anomaly and attack detection in telecom networks  
-- Scalable event-driven monitoring pipelines  
-- Machine learning for network security and performance analysis  
-- Improving robustness of O-RAN and cloud-native RAN systems  
+- Packet analysis and anomaly detection  
+- Attack simulation and detection logic  
+- Applied in O-RAN security research scenarios  
+- Tool: [Wireshark](https://www.wireshark.org/)
 
 ---
 
-## Students & Collaboration
+### Spiking Neural Networks (SNN) Experiments
+Research on biologically inspired deep learning models applied to signal processing and pattern recognition.
 
-I welcome students and collaborators at all levels:
-
-- Undergraduate research students  
-- MSc and MEng students  
-- PhD candidates (future direction)  
-- Visiting students and research interns  
-
-Research topics include **O-RAN security**, **VES analytics**, **network observability**, and **AI for telecom systems**.
-
-I am open to collaboration with researchers in **software-defined networking**, **cybersecurity**, and **distributed systems**.
+- Frameworks: Nengo, nengo-fpga  
+- Dataset: MNIST-based experiments  
+- Focus: neuromorphic computing and energy-efficient AI  
+- Related: [Nengo](https://www.nengo.ai/)
 
 ---
+
+### SimpleDB Transaction & Lock Manager Implementation
+Implementation of core database internals including transaction handling, buffer management, and locking systems.
+
+- Shared/exclusive locks  
+- Deadlock detection using wait-for graphs  
+- Educational DBMS system design
+- Related: [SimpleDB (MIT)](https://mitpdos.github.io/)
 
 ---
