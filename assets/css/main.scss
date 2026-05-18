@@ -31,6 +31,7 @@
     "syntax",
 
     "layout/forms",
+   
 
     "layout/page",
     "layout/archive",
@@ -41,3 +42,48 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+/* ================================
+   MODERN NAVIGATION HOVER EFFECT
+   ================================ */
+
+.masthead__menu-item a {
+  position: relative;
+  transition: all 0.3s ease;
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+/* Hover effect */
+.masthead__menu-item a:hover {
+  color: #2563eb !important;
+  background: rgba(37, 99, 235, 0.08);
+  transform: translateY(-2px);
+}
+
+/* Animated underline */
+.masthead__menu-item a::after {
+  content: "";
+  position: absolute;
+  left: 10px;
+  bottom: 2px;
+  width: 0%;
+  height: 2px;
+  background: #2563eb;
+  transition: width 0.3s ease;
+  border-radius: 2px;
+}
+
+.masthead__menu-item a:hover::after {
+  width: calc(100% - 20px);
+}
+
+/* Active page */
+.greedy-nav .active a {
+  color: #2563eb !important;
+  font-weight: 600;
+}
+
+/* Smooth navbar */
+.greedy-nav {
+  backdrop-filter: blur(8px);
+}
