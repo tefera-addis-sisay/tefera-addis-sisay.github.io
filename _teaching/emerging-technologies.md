@@ -2,25 +2,36 @@
 title: "Emerging Technologies"
 collection: teaching
 type: "Undergraduate course"
-permalink: /teaching/emerging-technologies
+permalink: /teaching/emerging-technologies/
 venue: "Bahir Dar Institute of Technology, Software Engineering"
 date: 2025-09-01
 location: "Bahir Dar, Ethiopia"
+layout: single
+author_profile: true
 ---
 
-This course explores modern and emerging technologies shaping the future of computing, including artificial intelligence, IoT, cloud computing, blockchain, and edge computing.
+<div class="course-header">
+
+# Emerging Technologies
+
+**Type:** Undergraduate Course  
+**Venue:** Bahir Dar Institute of Technology, Software Engineering  
+**Location:** Bahir Dar, Ethiopia  
+**Date:** 2025  
+
+</div>
 
 ---
 
-Course Description
-======
+## 📘 Course Description
 
-This course introduces students to rapidly evolving technologies that are transforming industries and society. It focuses on understanding concepts, applications, and real-world impact of emerging digital technologies.
+This course explores modern and emerging technologies shaping the future of computing, including artificial intelligence, Internet of Things (IoT), cloud computing, blockchain, and edge computing.
+
+It introduces students to rapidly evolving technologies that are transforming industries and society.
 
 ---
 
-Learning Objectives
-======
+## 🎯 Learning Objectives
 
 By the end of this course, students will be able to:
 
@@ -32,8 +43,7 @@ By the end of this course, students will be able to:
 
 ---
 
-Topics Covered
-======
+## 🧠 Topics Covered
 
 - Introduction to Emerging Technologies
 - Artificial Intelligence and Machine Learning basics
@@ -47,8 +57,7 @@ Topics Covered
 
 ---
 
-Assessment
-======
+## 🧪 Assessment
 
 - Assignments: 30%
 - Presentations: 20%
@@ -57,7 +66,10 @@ Assessment
 
 ---
 
-Practical Work
-======
+## 🛠 Practical Work
 
-Students will analyze case studies and develop a small project or presentation on a selected emerging technology.
+Students will work on:
+
+- Case study analysis of emerging technologies  
+- Small research or presentation project on a selected technology  
+- Exploration of real-world applications and impact  
