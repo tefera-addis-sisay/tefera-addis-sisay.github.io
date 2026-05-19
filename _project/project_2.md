@@ -6,7 +6,7 @@ permalink: /project/project_2/
 author_profile: true
 ---
 
-# Project
+# Project 2
 
 ## I have participated in building the following projects
 
