@@ -2,27 +2,36 @@
 title: "Internet Programming"
 collection: teaching
 type: "Undergraduate course"
-permalink: /teaching/internet-programming
+permalink: /teaching/internet-programming/
 venue: "Bahir Dar Institute of Technology, Software Engineering"
 date: 2025-09-01
 location: "Bahir Dar, Ethiopia"
+layout: single
+author_profile: true
 ---
+
+<div class="course-header">
+
+# Internet Programming
+
+**Type:** Undergraduate Course  
+**Venue:** Bahir Dar Institute of Technology, Software Engineering  
+**Location:** Bahir Dar, Ethiopia  
+**Date:** 2025  
+
+</div>
+
+---
+
+## 📘 Course Description
 
 This course introduces the fundamentals of web development and internet programming. It covers client-side and server-side technologies used to design and build modern dynamic web applications.
 
----
-
-Course Description
-======
-
-This course provides an introduction to internet programming with a focus on web development technologies. Students learn how to build interactive and dynamic websites using HTML, CSS, JavaScript, and PHP.
-
-The course emphasizes both frontend and backend development concepts.
+Students gain hands-on experience in both frontend and backend development.
 
 ---
 
-Learning Objectives
-======
+## 🎯 Learning Objectives
 
 By the end of this course, students will be able to:
 
@@ -35,8 +44,7 @@ By the end of this course, students will be able to:
 
 ---
 
-Topics Covered
-======
+## 🧠 Topics Covered
 
 - Introduction to Internet and Web Technologies
 - HTML: Structure of web pages
@@ -50,8 +58,7 @@ Topics Covered
 
 ---
 
-Assessment
-======
+## 🧪 Assessment
 
 - Assignments: 30%
 - Lab exercises: 20%
@@ -60,7 +67,10 @@ Assessment
 
 ---
 
-Practical Work
-======
+## 🛠 Practical Work
 
-Students will develop a complete web application as a final project, integrating frontend and backend technologies, including database connectivity.
+Students will develop a complete web application as a final project, integrating:
+
+- Frontend (HTML, CSS, JavaScript)  
+- Backend (PHP)  
+- Database (MySQL)  
