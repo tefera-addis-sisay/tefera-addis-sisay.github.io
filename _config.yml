@@ -1,58 +1,101 @@
 # Welcome to Jekyll!
 
-locale                   : "en-US"
-site_theme               : "default"
-title                    : "Eng. Tefera Addis"
-title_separator          : "-"
-name                     : &name "Tefera Addis SISAY"
-description              : &description "Academic portfolio of Tefera Addis SISAY"
-url                      : https://tefera-addis-sisay.github.io
-baseurl                  : ""
-repository               : "tefera-addis-sisay/tefera-sisay.github.io"
+locale: "en-US"
+site_theme: "default"
+title: "Eng. Tefera Addis"
+title_separator: "-"
+name: &name "Tefera Addis SISAY"
+description: &description "Academic portfolio of Tefera Addis SISAY"
 
+url: https://tefera-addis-sisay.github.io
+baseurl: ""
+repository: "tefera-addis-sisay/tefera-addis-sisay.github.io"
+
+# Site Author
 author:
-  avatar           : "profile.png"
-  name             : "Tefera Addis SISAY"
-  pronouns         :
-  bio              : "Lecturer at Bahir Dar Institute of Technology (BiT), Bahir Dar, Ethiopia."
-  location         : "Bahir Dar, Ethiopia"
-  employer         : "Bahir Dar Institute of Technology"
-  uri              :
-  email            : "tefera.addis@bdu.edu.et"
+  avatar: "profile.png"
+  name: "Tefera Addis SISAY"
+  pronouns:
+  bio: "Lecturer at Bahir Dar Institute of Technology (BiT), Bahir Dar, Ethiopia."
+  location: "Bahir Dar, Ethiopia"
+  employer: "Bahir Dar Institute of Technology"
+  uri:
+  email: "tefera.addis@bdu.edu.et"
 
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-  orcid            : "https://orcid.org/0009-0005-7483-7377"
-  researchgate     : "https://www.researchgate.net/profile/Tefera-Addis-Sisay-3"
-  linkedin         : "https://www.linkedin.com/in/tefera-addis-a3b475343/"
-  twitter          : "https://x.com/teferaaddis777"
-  youtube          : "Habeshatube777"
+  googlescholar: "https://scholar.google.com/citations?view_op=new_articles&hl=en&imq=Tefera+Addis#"
+  orcid: "https://orcid.org/0009-0005-7483-7377"
+  researchgate: "https://www.researchgate.net/profile/Tefera-Addis-Sisay-3?ev=hdr_xprf"
+  linkedin: "https://www.linkedin.com/in/tefera-addis-a3b475343/"
+  twitter: "https://x.com/teferaaddis777?s=21"
+  youtube: "Habeshatube777"
 
 publication_category:
   books:
-    title: 'Books'
+    title: "Books"
   manuscripts:
-    title: 'Journal Articles'
+    title: "Journal Articles"
   conferences:
-    title: 'Conference Papers'
+    title: "Conference Papers"
 
+# Site Settings
+teaser:
+breadcrumbs: false
+words_per_minute: 160
+future: true
+read_more: "disabled"
+talkmap_link: false
+
+# COMMENTS
+comments:
+  provider:
+
+# STATICMAN
+staticman:
+  allowedFields: ['name', 'email', 'url', 'message']
+  branch: "gh-pages"
+  commitMessage: "New comment."
+  filename: comment-{@timestamp}
+  format: "yml"
+  moderation: true
+  path: "_data/comments/{options.slug}"
+  requiredFields: ['name', 'email', 'message']
+
+atom_feed:
+  hide: false
+
+# SEO
+google_site_verification:
+bing_site_verification:
+alexa_site_verification:
+yandex_site_verification:
+
+# SOCIAL
+twitter:
+  username:
+facebook:
+  username:
+
+og_image:
+og_description:
+
+social:
+  type:
+  name:
+  links:
+
+# ANALYTICS
+analytics:
+  provider: "false"
+
+# FILES
 include:
   - .htaccess
   - _pages
   - files
 
 exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - .asset-cache
-  - .bundle
-  - .github
-  - .jekyll-assets-cache
-  - .sass-cache
   - node_modules
   - vendor
-  - package.json*
-  - README
-  - tmp
 
 keep_files:
   - .git
@@ -60,22 +103,22 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
+# =========================
+# ✅ MARKDOWN FIX (IMPORTANT)
+# =========================
 markdown: kramdown
+
+kramdown:
+  input: GFM
+
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
-kramdown:
-  input: GFM
-  hard_wrap: false
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-
-# Collections (FIXED)
+# =========================
+# COLLECTIONS (FIXED)
+# =========================
 collections:
   teaching:
     output: true
@@ -89,7 +132,7 @@ collections:
     output: true
     permalink: /:collection/:path/
 
-  project:
+  projects:
     output: true
     permalink: /:collection/:path/
 
@@ -101,7 +144,9 @@ collections:
     output: true
     permalink: /:collection/:path/
 
-# Defaults
+# =========================
+# DEFAULTS
+# =========================
 defaults:
 
   - scope:
@@ -110,10 +155,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
 
   - scope:
       path: ""
@@ -138,8 +179,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
-      comments: true
 
   - scope:
       path: ""
@@ -150,7 +189,7 @@ defaults:
 
   - scope:
       path: ""
-      type: project
+      type: projects
     values:
       layout: single
       author_profile: true
@@ -174,6 +213,9 @@ defaults:
       author_profile: true
       share: true
 
+# =========================
+# SASS
+# =========================
 sass:
   sass_dir: _sass
   style: compressed
@@ -181,6 +223,9 @@ sass:
 permalink: /:categories/:title/
 timezone: Etc/UTC
 
+# =========================
+# PLUGINS
+# =========================
 plugins:
   - jekyll-feed
   - jekyll-gist
@@ -188,3 +233,30 @@ plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
   - jemoji
+
+whitelist:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jemoji
+
+# =========================
+# ARCHIVES
+# =========================
+category_archive:
+  type: liquid
+  path: /categories/
+
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# =========================
+# HTML COMPRESSION
+# =========================
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
