@@ -1,9 +1,12 @@
 ---
 title: "Service 1: Research & Academic Mentorship"
+collection: services
 permalink: /services/service_1/
 layout: single
 author_profile: true
 ---
+
+
 
 ## Research & Academic Mentorship
 
