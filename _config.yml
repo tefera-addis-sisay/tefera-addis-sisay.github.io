@@ -296,7 +296,7 @@ defaults:
   #_services
   - scope:
       path: ""
-      type: service
+      type: services
     values:
       layout: single
       author_profile: true
