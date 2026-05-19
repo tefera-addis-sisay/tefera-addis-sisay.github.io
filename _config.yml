@@ -290,7 +290,7 @@ defaults:
       share: true
       comments: true
 
-  # _projects (ADDED)
+  # _project (ADDED)
   - scope:
       path: ""
       type: project
