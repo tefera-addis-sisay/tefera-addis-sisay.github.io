@@ -266,9 +266,10 @@ defaults:
       type: teaching
     values:
       layout: single
+      show_date: false
       author_profile: true
-      share: true
-      comments: true
+      read_time: false
+      comments: false
 
   # _publications
   - scope:
