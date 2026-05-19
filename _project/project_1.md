@@ -1,8 +1,8 @@
 ---
-layout: single
 title: "Project"
 permalink: /project/project_1/
 author_profile: true
+layout: single
 ---
 
 # Project
