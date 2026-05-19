@@ -2,26 +2,35 @@
 title: "Computer Programming (C++)"
 collection: teaching
 type: "Undergraduate course"
-permalink: /teaching/computer-programming-cpp
+permalink: /teaching/computer-programming-cpp/
 venue: "Bahir Dar Institute of Technology, Software Engineering"
 date: 2025-09-01
 location: "Bahir Dar, Ethiopia"
+layout: single
+author_profile: true
 ---
 
-This course introduces fundamental concepts of computer programming using the C++ programming language. It focuses on problem-solving, structured programming, and object-oriented programming principles.
+<div class="course-header">
+
+# Computer Programming (C++)
+
+**Type:** Undergraduate Course  
+**Venue:** Bahir Dar Institute of Technology, Software Engineering  
+**Location:** Bahir Dar, Ethiopia  
+**Date:** 2025  
+
+</div>
 
 ---
 
-Course Description
-======
+## 📘 Course Description
 
 This course introduces fundamental concepts of computer programming using C++.
-Students learn how to design algorithms, write structured programs, and develop object-oriented solutions.
+Students learn how to design algorithms, write structured programs, and develop object-oriented software solutions.
 
 ---
 
-Learning Objectives
-======
+## 🎯 Learning Objectives
 
 By the end of this course, students will be able to:
 
@@ -34,8 +43,7 @@ By the end of this course, students will be able to:
 
 ---
 
-Topics Covered
-======
+## 🧠 Topics Covered
 
 - Introduction to programming and C++
 - Variables, data types, and operators
@@ -49,8 +57,7 @@ Topics Covered
 
 ---
 
-Assessment
-======
+## 🧪 Assessment
 
 - Assignments: 30%
 - Lab work: 20%
@@ -59,7 +66,7 @@ Assessment
 
 ---
 
-Teaching Notes
-======
+## 🛠 Teaching Notes
 
-This course emphasizes hands-on programming practice and weekly lab exercises. Students are expected to write code regularly and complete programming assignments.
+This course emphasizes hands-on programming practice and weekly lab exercises.
+Students are expected to write code regularly and complete programming assignments.
