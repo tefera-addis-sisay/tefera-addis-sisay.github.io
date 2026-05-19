@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Project"
+collection: project
 permalink: /project/project_2/
 author_profile: true
 ---
