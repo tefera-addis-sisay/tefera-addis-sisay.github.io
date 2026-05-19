@@ -1,0 +1,27 @@
+---
+title: "Network Traffic Monitoring & Attack Detection"
+collection: project
+permalink: /project/network-monitoring/
+author_profile: true
+layout: single
+---
+
+## Network Traffic Monitoring & Attack Detection
+
+Development of a system for packet capture, traffic analysis, and attack detection in O-RAN environments.
+
+### 🔍 Focus Areas
+- Network traffic analysis
+- Intrusion detection
+- Attack simulation in RAN environments
+
+### 🛠 Tools
+- Wireshark
+- Python-based analysis tools
+- Linux networking stack
+
+### 📌 Impact
+Supports security evaluation of virtualized network infrastructures.
+
+### 🔗 Tool
+- [Wireshark](https://www.wireshark.org/)
