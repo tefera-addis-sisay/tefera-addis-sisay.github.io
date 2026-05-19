@@ -17,18 +17,18 @@ main:
   - title: "Talks"
     url: /talks/
 
-  #- title: "Teaching"
-  #  url: /teaching/
+  - title: "Teaching"
+    url: /teaching/
 
-  #- title: "Services"
-  #  url: /services/
+  - title: "Services"
+    url: /services/
 
-  # - title: "CV"
-  #   url: /cv-json/
+  - title: "CV"
+    url: /cv-json/
 
-  #- title: "Services"
-  #  url: /markdown/
+  - title: "Services"
+    url: /markdown/
 
-  #- title: "Projects"
-  #  url: /project/
+  - title: "Projects"
+    url: /project/
 
