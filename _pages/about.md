@@ -1,7 +1,9 @@
 ---
-permalink: /
 title: "About Me"
+permalink: /
+layout: single
 author_profile: true
+classes: ""
 redirect_from:
   - /about/
   - /about.html
