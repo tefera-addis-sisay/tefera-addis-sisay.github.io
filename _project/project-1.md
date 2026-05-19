@@ -4,7 +4,7 @@ permalink: /projects/
 author_profile: true
 ---
 
-## Projects
+## I have participated in the following projects. 
 
 ### O-RAN Security & Intelligent Network Monitoring
 Research and development of anomaly detection and performance degradation analysis in O-RAN systems using Non-RT RIC architectures.
