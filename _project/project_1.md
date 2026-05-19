@@ -1,5 +1,5 @@
 ---
 title: "Project 1: O-RAN Security & Intelligent Network Monitoring"
-permalink: /projects/project_1/
+permalink: /project/project_1/
 layout: single
 ---
