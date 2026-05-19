@@ -2,27 +2,38 @@
 title: "Cyber Law and Ethics"
 collection: teaching
 type: "Undergraduate course"
-permalink: /teaching/cyber-law-ethics
+permalink: /teaching/cyber-law-ethics/
 venue: "Bahir Dar Institute of Technology, Cybersecurity"
 date: 2025-09-01
 location: "Bahir Dar, Ethiopia"
+layout: single
+author_profile: true
 ---
+
+<div class="course-header">
+
+# Cyber Law and Ethics
+
+**Type:** Undergraduate Course  
+**Venue:** Bahir Dar Institute of Technology, Cybersecurity  
+**Location:** Bahir Dar, Ethiopia  
+**Date:** 2025  
+
+</div>
+
+---
+
+## 📘 Course Description
 
 This course introduces students to the legal, ethical, and regulatory aspects of cyberspace. It focuses on understanding cyber laws, digital rights, privacy, and ethical responsibilities in the use of information and communication technologies.
 
----
+It provides a comprehensive overview of cyber law and ethics, including legal frameworks governing cyberspace, data protection, intellectual property, cybercrime laws, and ethical issues in digital environments.
 
-Course Description
-======
-
-This course provides a comprehensive overview of cyber law and ethics, including legal frameworks governing cyberspace, data protection, intellectual property, cybercrime laws, and ethical issues in digital environments.
-
-Students are encouraged to critically analyze real-world cyber incidents and understand their legal and ethical implications.
+Students critically analyze real-world cyber incidents and their legal and ethical implications.
 
 ---
 
-Learning Objectives
-======
+## 🎯 Learning Objectives
 
 By the end of this course, students will be able to:
 
@@ -35,8 +46,7 @@ By the end of this course, students will be able to:
 
 ---
 
-Topics Covered
-======
+## 🧠 Topics Covered
 
 - Introduction to Cyber Law and Legal Systems
 - Internet Governance and Regulations
@@ -50,8 +60,7 @@ Topics Covered
 
 ---
 
-Assessment
-======
+## 🧪 Assessment
 
 - Assignments: 30%
 - Case study analysis: 20%
@@ -60,7 +69,10 @@ Assessment
 
 ---
 
-Practical Work
-======
+## 🛠 Practical Work
 
-Students will analyze real cyber law cases and prepare reports discussing legal violations, ethical concerns, and possible preventive measures.
+Students will:
+
+- Analyze real cyber law cases  
+- Prepare reports on legal violations and ethical concerns  
+- Propose preventive and mitigation strategies  
