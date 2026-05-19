@@ -8,6 +8,7 @@ author_profile: true
 ## I have participated in building the following projects
 
 ### O-RAN Security & Intelligent Network Monitoring
+
 Research and development of anomaly detection and performance degradation analysis in O-RAN systems using Non-RT RIC architectures.
 
 - Focus: network intelligence, security analytics, and RAN optimization  
@@ -17,6 +18,7 @@ Research and development of anomaly detection and performance degradation analys
 ---
 
 ### VES Collector for Network Telemetry
+
 Design and implementation of a Python-based VES (Virtualized Event Streaming) Collector for receiving, processing, and analyzing RAN events.
 
 - Real-time event ingestion and processing pipeline  
@@ -27,6 +29,7 @@ Design and implementation of a Python-based VES (Virtualized Event Streaming) Co
 ---
 
 ### Network Traffic Monitoring & Attack Detection
+
 Development of tools for capturing and analyzing network traffic using Wireshark-integrated environments.
 
 - Packet analysis and anomaly detection  
@@ -37,6 +40,7 @@ Development of tools for capturing and analyzing network traffic using Wireshark
 ---
 
 ### Spiking Neural Networks (SNN) Experiments
+
 Research on biologically inspired deep learning models for signal processing and pattern recognition.
 
 - Frameworks: Nengo, nengo-fpga  
@@ -47,6 +51,7 @@ Research on biologically inspired deep learning models for signal processing and
 ---
 
 ### SimpleDB Transaction & Lock Manager Implementation
+
 Implementation of database internals including transaction handling, buffer management, and locking systems.
 
 - Shared/exclusive locks  
