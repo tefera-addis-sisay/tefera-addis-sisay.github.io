@@ -210,7 +210,7 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
-
+    
 # Defaults
 defaults:
 
