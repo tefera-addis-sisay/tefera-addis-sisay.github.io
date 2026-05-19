@@ -28,7 +28,6 @@
     "syntax",
 
     "layout/forms",
-   
 
     "layout/page",
     "layout/archive",
@@ -39,15 +38,17 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
 /* ================================
-   MODERN NAVIGATION HOVER EFFECT
+   MODERN NAVIGATION HOVER EFFECT (SAFE)
    ================================ */
 
 .masthead__menu-item a {
   position: relative;
-  transition: all 0.3s ease;
+  transition: all 0.25s ease;
   padding: 6px 10px;
   border-radius: 6px;
+  display: inline-block;
 }
 
 /* Hover effect */
@@ -80,13 +81,23 @@
   font-weight: 600;
 }
 
-/* Smooth navbar */
-.greedy-nav {
-  backdrop-filter: blur(8px);
+/* ================================
+   NAVBAR FIX (IMPORTANT - PREVENT STACKING ISSUE)
+   ================================ */
+
+.greedy-nav .visible-links {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  align-items: center;
+}
+
+.greedy-nav .visible-links li {
+  display: inline-flex !important;
 }
 
 /* ================================
-   PROJECT GRID (ADDED)
+   PROJECT GRID
    ================================ */
 
 .project-grid {
@@ -126,7 +137,7 @@
 }
 
 /* ================================
-   TEACHING GRID (ADDED)
+   TEACHING GRID
    ================================ */
 
 .teaching-grid {
