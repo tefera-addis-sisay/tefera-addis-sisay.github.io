@@ -38,115 +38,67 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
-
 /* ================================
-   MODERN NAVIGATION HOVER EFFECT (SAFE)
+   SAFE FIX: NAVBAR STRUCTURE RESTORE
    ================================ */
 
-.masthead__menu-item a {
-  position: relative;
-  transition: all 0.25s ease;
-  padding: 6px 10px;
-  border-radius: 6px;
-  display: inline-block;
+.greedy-nav {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  flex-wrap: nowrap !important;
 }
-
-/* Hover effect */
-.masthead__menu-item a:hover {
-  color: #2563eb !important;
-  background: rgba(37, 99, 235, 0.08);
-  transform: translateY(-2px);
-}
-
-/* Animated underline */
-.masthead__menu-item a::after {
-  content: "";
-  position: absolute;
-  left: 10px;
-  bottom: 2px;
-  width: 0%;
-  height: 2px;
-  background: #2563eb;
-  transition: width 0.3s ease;
-  border-radius: 2px;
-}
-
-.masthead__menu-item a:hover::after {
-  width: calc(100% - 20px);
-}
-
-/* Active page */
-.greedy-nav .active a {
-  color: #2563eb !important;
-  font-weight: 600;
-}
-
-/* ================================
-   NAVBAR FIX (IMPORTANT - PREVENT STACKING ISSUE)
-   ================================ */
 
 .greedy-nav .visible-links {
   display: flex !important;
   flex-direction: row !important;
   flex-wrap: nowrap !important;
-  align-items: center;
+  align-items: center !important;
+  list-style: none !important;
+  margin: 0;
+  padding: 0;
 }
 
 .greedy-nav .visible-links li {
-  display: inline-flex !important;
+  display: inline-block !important;
+}
+
+/* Prevent navbar text stacking */
+.masthead__menu-item {
+  display: inline-block !important;
 }
 
 /* ================================
-   PROJECT GRID
+   GLOBAL LAYOUT FIX (VERY IMPORTANT)
    ================================ */
 
-.project-grid {
+.page {
+  display: block !important;
+}
+
+.page__inner-wrap {
+  display: block !important;
+}
+
+/* Prevent theme collapsing everything vertically */
+.initial-content {
+  display: block !important;
+}
+
+/* ================================
+   PROJECT + TEACHING GRID (SAFE)
+   ================================ */
+
+.project-grid,
+.teaching-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 18px;
   margin-top: 20px;
 }
 
-.project-card {
-  background: #fff;
-  border: 1px solid #e6e6e6;
-  border-radius: 12px;
-  padding: 18px;
-  transition: all 0.25s ease;
-}
-
-.project-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
-}
-
-.project-title {
-  margin: 0 0 10px 0;
-  font-size: 18px;
-}
-
-.project-title a {
-  text-decoration: none;
-  color: #2c3e50;
-}
-
-.project-summary {
-  font-size: 14px;
-  color: #666;
-  line-height: 1.5;
-}
-
-/* ================================
-   TEACHING GRID
-   ================================ */
-
-.teaching-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 18px;
-  margin-top: 20px;
-}
-
+/* Project Cards */
+.project-card,
 .teaching-card {
   background: #ffffff;
   border: 1px solid #e6e6e6;
@@ -155,29 +107,57 @@
   transition: all 0.25s ease;
 }
 
+/* Hover effect */
+.project-card:hover,
 .teaching-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 8px 20px rgba(0,0,0,0.08);
 }
 
+/* Titles */
+.project-title,
 .teaching-title {
-  margin: 0 0 6px 0;
+  margin: 0 0 8px 0;
   font-size: 18px;
 }
 
+.project-title a,
 .teaching-title a {
   text-decoration: none;
   color: #2c3e50;
 }
 
+/* Meta text */
 .teaching-meta {
   font-size: 12px;
   color: #888;
   margin-bottom: 10px;
 }
 
+/* Summary text */
+.project-summary,
 .teaching-summary {
   font-size: 14px;
   color: #555;
   line-height: 1.5;
+}
+
+/* ================================
+   PREVENT "STACKED EVERYTHING" BUG
+   ================================ */
+
+body {
+  display: block !important;
+}
+
+main {
+  display: block !important;
+}
+
+/* Fix markdown flattening inside layout */
+.page__content {
+  display: block !important;
+  max-width: 100%;
+}
+
 }
