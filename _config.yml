@@ -232,6 +232,10 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+ Services:
+    output: true
+    permalink: /:collection/:path/
+---
 
 
 # These settings control how pages and collections are included in the site
@@ -289,7 +293,14 @@ defaults:
       layout: talk
       author_profile: true
       share: true
-
+  #_services
+     - scope:
+      path: ""
+      type: service
+    values:
+      layout: service
+      author_profile: true
+      share: true
 
 # Sass/SCSS
 sass:
