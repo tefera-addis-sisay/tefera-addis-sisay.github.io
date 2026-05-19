@@ -1,8 +1,9 @@
 ---
 title: "Projects"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-collection: project
+permalink: /projects/
+author_profile: true
 ---
+
 ## Projects
 
 ### O-RAN Security & Intelligent Network Monitoring
@@ -18,38 +19,36 @@ Research and development of anomaly detection and performance degradation analys
 Design and implementation of a Python-based VES (Virtualized Event Streaming) Collector for receiving, processing, and analyzing RAN events.
 
 - Real-time event ingestion and processing pipeline  
-- Integration with monitoring systems (Kafka / streaming pipelines)  
+- Integration with streaming systems (Kafka, monitoring tools)  
 - Security testing and attack simulation on event streams  
 - Related: [ONAP VES Documentation](https://docs.onap.org/)
 
 ---
 
 ### Network Traffic Monitoring & Attack Detection
-Development of tools for capturing and analyzing network traffic using Wireshark-integrated environments for security research.
+Development of tools for capturing and analyzing network traffic using Wireshark-integrated environments.
 
 - Packet analysis and anomaly detection  
 - Attack simulation and detection logic  
-- Applied in O-RAN security research scenarios  
+- Applied in O-RAN security research  
 - Tool: [Wireshark](https://www.wireshark.org/)
 
 ---
 
 ### Spiking Neural Networks (SNN) Experiments
-Research on biologically inspired deep learning models applied to signal processing and pattern recognition.
+Research on biologically inspired deep learning models for signal processing and pattern recognition.
 
 - Frameworks: Nengo, nengo-fpga  
 - Dataset: MNIST-based experiments  
-- Focus: neuromorphic computing and energy-efficient AI  
+- Focus: neuromorphic computing  
 - Related: [Nengo](https://www.nengo.ai/)
 
 ---
 
 ### SimpleDB Transaction & Lock Manager Implementation
-Implementation of core database internals including transaction handling, buffer management, and locking systems.
+Implementation of database internals including transaction handling, buffer management, and locking systems.
 
 - Shared/exclusive locks  
 - Deadlock detection using wait-for graphs  
-- Educational DBMS system design
-- Related: [SimpleDB (MIT)](https://mitpdos.github.io/)
-
----
+- Educational DBMS system  
+- Related: [MIT SimpleDB](https://mitpdos.github.io/)
