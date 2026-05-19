@@ -199,7 +199,7 @@ collections:
     output: true
     permalink: /:collection/:path/
 
-  projects:
+  project:
     output: true
     permalink: /:collection/:path/
 
@@ -260,7 +260,7 @@ defaults:
 
   - scope:
       path: ""
-      type: projects
+      type: project
     values:
       layout: single
       author_profile: true
