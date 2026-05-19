@@ -2,27 +2,38 @@
 title: "Object Oriented Design"
 collection: teaching
 type: "Undergraduate course"
-permalink: /teaching/object-oriented-design
+permalink: /teaching/object-oriented-design/
 venue: "Bahir Dar Institute of Technology, Software Engineering"
 date: 2025-09-01
 location: "Bahir Dar, Ethiopia"
+layout: single
+author_profile: true
 ---
+
+<div class="course-header">
+
+# Object Oriented Design
+
+**Type:** Undergraduate Course  
+**Venue:** Bahir Dar Institute of Technology, Software Engineering  
+**Location:** Bahir Dar, Ethiopia  
+**Date:** 2025  
+
+</div>
+
+---
+
+## 📘 Course Description
 
 This course introduces the principles and practices of object-oriented design for building scalable, maintainable, and well-structured software systems.
 
----
-
-Course Description
-======
-
-This course focuses on advanced object-oriented design concepts used in software development. It covers design principles, design patterns, UML modeling, and best practices for creating high-quality software architectures.
+It focuses on advanced object-oriented design concepts used in software development, including design principles, design patterns, UML modeling, and best practices for building high-quality software architectures.
 
 Students learn how to translate requirements into well-designed object-oriented systems.
 
 ---
 
-Learning Objectives
-======
+## 🎯 Learning Objectives
 
 By the end of this course, students will be able to:
 
@@ -35,8 +46,7 @@ By the end of this course, students will be able to:
 
 ---
 
-Topics Covered
-======
+## 🧠 Topics Covered
 
 - Introduction to Object-Oriented Design
 - SOLID Principles
@@ -49,8 +59,7 @@ Topics Covered
 
 ---
 
-Assessment
-======
+## 🧪 Assessment
 
 - Assignments: 30%
 - Design exercises: 20%
@@ -59,7 +68,12 @@ Assessment
 
 ---
 
-Practical Work
-======
+## 🛠 Practical Work
 
-Students will design object-oriented systems such as e-commerce systems, library systems, or management systems using UML diagrams and design patterns.
+Students will design object-oriented systems such as:
+
+- E-commerce systems  
+- Library management systems  
+- Academic management systems  
+
+using UML diagrams and design patterns.
