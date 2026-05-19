@@ -232,7 +232,7 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
- Services:
+  services:
     output: true
     permalink: /:collection/:path/
 ---
