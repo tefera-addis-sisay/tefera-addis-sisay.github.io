@@ -6,20 +6,16 @@ permalink: /teaching/internet-programming/
 venue: "Bahir Dar Institute of Technology, Software Engineering"
 date: 2025-09-01
 location: "Bahir Dar, Ethiopia"
-layout: single
+layout: archive
 author_profile: true
 ---
 
-<div class="course-header">
-
-# Internet Programming
+## Internet Programming
 
 **Type:** Undergraduate Course  
 **Venue:** Bahir Dar Institute of Technology, Software Engineering  
 **Location:** Bahir Dar, Ethiopia  
 **Date:** 2025  
-
-</div>
 
 ---
 
@@ -73,4 +69,4 @@ Students will develop a complete web application as a final project, integrating
 
 - Frontend (HTML, CSS, JavaScript)  
 - Backend (PHP)  
-- Database (MySQL)  
+- Database (MySQL)
