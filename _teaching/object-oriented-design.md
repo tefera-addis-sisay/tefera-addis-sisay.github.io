@@ -6,20 +6,16 @@ permalink: /teaching/object-oriented-design/
 venue: "Bahir Dar Institute of Technology, Software Engineering"
 date: 2025-09-01
 location: "Bahir Dar, Ethiopia"
-layout: single
+layout: archive
 author_profile: true
 ---
 
-<div class="course-header">
-
-# Object Oriented Design
+## Object Oriented Design
 
 **Type:** Undergraduate Course  
 **Venue:** Bahir Dar Institute of Technology, Software Engineering  
 **Location:** Bahir Dar, Ethiopia  
 **Date:** 2025  
-
-</div>
 
 ---
 
@@ -75,5 +71,3 @@ Students will design object-oriented systems such as:
 - E-commerce systems  
 - Library management systems  
 - Academic management systems  
-
-using UML diagrams and design patterns.
