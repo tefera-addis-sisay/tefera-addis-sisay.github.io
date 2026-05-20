@@ -36,7 +36,7 @@
 ;
 
 /* =========================================================
-   Global Website Styling
+   GLOBAL STYLES
 ========================================================= */
 
 html {
@@ -45,8 +45,8 @@ html {
 
 body {
   font-family: "Segoe UI", Roboto, sans-serif;
-  line-height: 1.8;
-  font-size: 17px;
+  line-height: 1.7;
+  font-size: 16.5px;
 
   background-color: var(--global-bg-color);
   color: var(--global-text-color);
@@ -55,225 +55,175 @@ body {
 }
 
 .page__content {
-  max-width: 900px;
+  max-width: 1100px;
   margin: auto;
 }
 
 /* =========================================================
-   Typography (Smaller Headings)
+   HEADINGS (balanced sizing)
 ========================================================= */
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-weight: 650;
-  line-height: 1.4;
-  margin-top: 1.6rem;
-  margin-bottom: 0.8rem;
-  color: var(--global-text-color);
+  line-height: 1.3;
+  margin-top: 1.4rem;
+  margin-bottom: 0.7rem;
 }
 
 h1 {
-  font-size: 2rem;
-  border-bottom: 2px solid #2563eb;
-  padding-bottom: 0.4rem;
+  font-size: 1.9rem;
+  border-bottom: 2px solid #3b82f6;
+  padding-bottom: 0.3rem;
 }
 
 h2 {
-  font-size: 1.5rem;
-  color: #2563eb;
-}
-
-h3 {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   color: #3b82f6;
 }
 
-h4 { font-size: 1.05rem; }
-h5 { font-size: 0.95rem; }
-h6 { font-size: 0.9rem; opacity: 0.85; }
+h3 {
+  font-size: 1.15rem;
+}
 
 /* =========================================================
-   Links
+   LINKS
 ========================================================= */
 
 a {
   color: #3b82f6;
   text-decoration: none;
-  transition: all 0.3s ease;
 }
 
 a:hover {
-  color: #60a5fa;
   text-decoration: underline;
 }
 
 /* =========================================================
-   Navigation Bar
+   NAVIGATION
 ========================================================= */
 
 .masthead {
   background: var(--global-bg-color);
-  border-bottom: 1px solid rgba(128, 128, 128, 0.2);
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-.greedy-nav {
-  background: var(--global-bg-color);
+  border-bottom: 1px solid rgba(0,0,0,0.08);
 }
 
 .greedy-nav a {
   font-weight: 600;
-  color: var(--global-text-color);
-}
-
-.greedy-nav a:hover {
-  color: #3b82f6;
 }
 
 /* =========================================================
-   Sidebar
+   SIDEBAR
 ========================================================= */
 
 .sidebar {
   background: var(--global-bg-color);
-  padding: 1rem;
   border-radius: 12px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
-}
-
-/* Profile Image */
-.author__avatar img {
-  border-radius: 50%;
-  border: 4px solid #3b82f6;
+  padding: 1rem;
 }
 
 /* =========================================================
-   Cards / Sections
+   CARDS (BASE)
 ========================================================= */
 
 .archive__item,
 .page {
   background: var(--global-bg-color);
-  padding: 1.5rem;
   border-radius: 14px;
-  margin-bottom: 2rem;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  padding: 1.2rem;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+  transition: all 0.2s ease;
 }
 
 .archive__item:hover,
 .page:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
 }
 
 /* =========================================================
-   Buttons
+   🎓 COURSES (COURSERA STYLE GRID)
 ========================================================= */
 
-.btn,
-button {
-  border-radius: 8px;
-  font-weight: 600;
-  transition: all 0.3s ease;
+.archive {
+  max-width: 1100px;
+  margin: auto;
 }
 
-.btn:hover,
-button:hover {
-  transform: translateY(-2px);
+/* GRID SYSTEM */
+.archive__item {
+  display: inline-block;
+  vertical-align: top;
+
+  width: calc(33.333% - 1rem);
+  margin: 0.5rem;
+
+  background: var(--global-bg-color);
+  border-radius: 16px;
+  padding: 1.2rem;
+
+  border-left: 4px solid #3b82f6;
+
+  transition: all 0.25s ease;
+}
+
+/* Hover effect */
+.archive__item:hover {
+  transform: translateY(-6px);
+}
+
+/* Course title */
+.archive__item h2,
+.archive__item h3 {
+  font-size: 1.05rem;
+  margin-bottom: 0.4rem;
+}
+
+/* Course text */
+.archive__item p {
+  font-size: 0.9rem;
+  opacity: 0.85;
+}
+
+/* RESPONSIVE GRID */
+@media (max-width: 992px) {
+  .archive__item {
+    width: calc(50% - 1rem);
+  }
+}
+
+@media (max-width: 600px) {
+  .archive__item {
+    width: 100%;
+    margin: 0.5rem 0;
+  }
 }
 
 /* =========================================================
-   Tables
+   TABLES
 ========================================================= */
 
 table {
+  width: 100%;
   border-radius: 10px;
   overflow: hidden;
-  width: 100%;
 }
 
 thead {
-  background: #2563eb;
+  background: #3b82f6;
   color: white;
 }
 
-th,
-td {
-  padding: 0.8rem;
-}
-
 /* =========================================================
-   Code Blocks
-========================================================= */
-
-pre,
-code {
-  border-radius: 10px;
-  font-size: 0.95rem;
-}
-
-/* =========================================================
-   Images
-========================================================= */
-
-img {
-  border-radius: 12px;
-  max-width: 100%;
-}
-
-/* =========================================================
-   Horizontal Lines
-========================================================= */
-
-hr {
-  border: none;
-  height: 1px;
-  background: rgba(128, 128, 128, 0.2);
-  margin: 2rem 0;
-}
-
-/* =========================================================
-   Footer
+   FOOTER
 ========================================================= */
 
 .page__footer {
   background: var(--global-footer-bg-color);
   color: var(--global-footer-text-color);
-  padding: 2rem 0;
-  margin-top: 3rem;
-}
-
-.page__footer a {
-  color: #93c5fd;
 }
 
 /* =========================================================
-   Forms
-========================================================= */
-
-input,
-textarea,
-select {
-  border-radius: 8px;
-  border: 1px solid rgba(128, 128, 128, 0.3);
-  padding: 0.7rem;
-  width: 100%;
-}
-
-input:focus,
-textarea:focus,
-select:focus {
-  outline: none;
-  border-color: #3b82f6;
-}
-
-/* =========================================================
-   Animations
+   ANIMATION
 ========================================================= */
 
 .page__content,
@@ -282,69 +232,6 @@ select:focus {
 }
 
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(8px); }
+  from { opacity: 0; transform: translateY(10px); }
   to { opacity: 1; transform: translateY(0); }
-}
-
-/* =========================================================
-   Mobile Responsive
-========================================================= */
-
-@media (max-width: 768px) {
-  body { font-size: 16px; }
-
-  h1 { font-size: 2rem; }
-  h2 { font-size: 1.5rem; }
-  h3 { font-size: 1.2rem; }
-
-  .page__content {
-    padding: 0 1rem;
-  }
-
-  .sidebar {
-    margin-top: 2rem;
-  }
-
-  .archive__item,
-  .page {
-    padding: 1rem;
-  }
-}
-
-/* =========================================================
-   Teaching Page Styling (Archive-based)
-========================================================= */
-
-.archive {
-  max-width: 900px;
-  margin: auto;
-}
-
-/* Ensure proper typography inside teaching pages */
-.archive h1,
-.archive h2,
-.archive h3 {
-  color: var(--global-text-color);
-}
-
-/* Improve readability */
-.archive p,
-.archive ul {
-  line-height: 1.7;
-}
-
-/* Proper card styling for each course item */
-.archive__item {
-  background: var(--global-bg-color);
-  padding: 1.5rem;
-  margin-bottom: 2rem;
-  border-radius: 14px;
-  border-left: 4px solid #3b82f6;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.06);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.archive__item:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
 }
