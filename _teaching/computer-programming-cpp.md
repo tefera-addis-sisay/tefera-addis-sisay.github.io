@@ -6,20 +6,16 @@ permalink: /teaching/computer-programming-cpp/
 venue: "Bahir Dar Institute of Technology, Software Engineering"
 date: 2025-09-01
 location: "Bahir Dar, Ethiopia"
-layout: single
+layout: archive
 author_profile: true
 ---
 
-<div class="course-header">
-
-# Computer Programming (C++)
+## Computer Programming (C++)
 
 **Type:** Undergraduate Course  
 **Venue:** Bahir Dar Institute of Technology, Software Engineering  
 **Location:** Bahir Dar, Ethiopia  
 **Date:** 2025  
-
-</div>
 
 ---
 
