@@ -2,20 +2,16 @@
 title: "Software Engineering"
 collection: teaching
 permalink: /teaching/software-engineering/
-layout: single
+layout: archive
 author_profile: true
 ---
 
-<div class="course-header">
-
-# Software Engineering
+## Software Engineering
 
 **Level:** Undergraduate  
 **Department:** Software Engineering  
 **Institution:** Bahir Dar Institute of Technology  
 **Year:** 2025  
-
-</div>
 
 ---
 
