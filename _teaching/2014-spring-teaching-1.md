@@ -10,53 +10,39 @@ layout: single
 author_profile: true
 ---
 
-<div class="course-header">
+<div class="course-card">
 
 # Cyber Law and Ethics
 
-**Type:** Undergraduate Course  
-**Venue:** Bahir Dar Institute of Technology, Cybersecurity  
-**Location:** Bahir Dar, Ethiopia  
-**Date:** 2025  
-
+<div class="course-meta">
+<strong>Type:</strong> Undergraduate Course<br>
+<strong>Venue:</strong> Bahir Dar Institute of Technology, Cybersecurity<br>
+<strong>Location:</strong> Bahir Dar, Ethiopia<br>
+<strong>Date:</strong> 2025
 </div>
 
 ---
 
 ## 📘 Course Description
 
-This course introduces students to the legal, ethical, and regulatory aspects of cyberspace. It focuses on understanding cyber laws, digital rights, privacy, and ethical responsibilities in the use of information and communication technologies.
-
-It provides a comprehensive overview of cyber law and ethics, including legal frameworks governing cyberspace, data protection, intellectual property, cybercrime laws, and ethical issues in digital environments.
-
-Students critically analyze real-world cyber incidents and their legal and ethical implications.
+This course introduces students to the legal, ethical, and regulatory aspects of cyberspace...
 
 ---
 
 ## 🎯 Learning Objectives
 
-By the end of this course, students will be able to:
-
-- Understand fundamental concepts of cyber law and digital governance
-- Analyze legal frameworks related to cyberspace and cybersecurity
-- Identify ethical issues in digital and online environments
-- Understand data protection and privacy laws
-- Evaluate cybercrime regulations and enforcement mechanisms
-- Apply ethical reasoning in technology-related decision making
+- Understand fundamental concepts...
+- Analyze legal frameworks...
+- Identify ethical issues...
 
 ---
 
 ## 🧠 Topics Covered
 
-- Introduction to Cyber Law and Legal Systems
-- Internet Governance and Regulations
-- Cybercrime and Cybersecurity Laws
-- Data Protection and Privacy Laws
-- Intellectual Property Rights in the Digital Era
-- Digital Ethics and Professional Responsibility
-- Social Media Law and Regulation
-- Case Studies in Cyber Law Violations
-- Ethical hacking and legal boundaries
+- Introduction to Cyber Law
+- Internet Governance
+- Cybercrime laws
+- Data protection
 
 ---
 
@@ -71,8 +57,8 @@ By the end of this course, students will be able to:
 
 ## 🛠 Practical Work
 
-Students will:
-
 - Analyze real cyber law cases  
-- Prepare reports on legal violations and ethical concerns  
-- Propose preventive and mitigation strategies  
+- Prepare reports  
+- Propose mitigation strategies  
+
+</div>
