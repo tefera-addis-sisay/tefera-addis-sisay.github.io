@@ -1,9 +1,9 @@
 ---
+layout: single
 title: Network Traffic Monitoring & Attack Detection
 collection: project
 permalink: /project/network-monitoring/
 author_profile: true
-layout: single
 ---
 
 ## Network Traffic Monitoring & Attack Detection
