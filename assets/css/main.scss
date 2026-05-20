@@ -36,7 +36,7 @@
 ;
 
 /* =========================================================
-   GLOBAL STYLES
+   GLOBAL
 ========================================================= */
 
 html {
@@ -45,8 +45,8 @@ html {
 
 body {
   font-family: "Segoe UI", Roboto, sans-serif;
-  line-height: 1.7;
   font-size: 16.5px;
+  line-height: 1.7;
 
   background-color: var(--global-bg-color);
   color: var(--global-text-color);
@@ -60,7 +60,7 @@ body {
 }
 
 /* =========================================================
-   HEADINGS (balanced sizing)
+   HEADINGS (balanced academic style)
 ========================================================= */
 
 h1, h2, h3, h4, h5, h6 {
@@ -107,10 +107,6 @@ a:hover {
   border-bottom: 1px solid rgba(0,0,0,0.08);
 }
 
-.greedy-nav a {
-  font-weight: 600;
-}
-
 /* =========================================================
    SIDEBAR
 ========================================================= */
@@ -122,26 +118,26 @@ a:hover {
 }
 
 /* =========================================================
-   CARDS (BASE)
+   BASE CARDS (used in Services etc.)
 ========================================================= */
 
-.archive__item,
-.page {
+.archive__item {
   background: var(--global-bg-color);
   border-radius: 14px;
-  padding: 1.2rem;
+  padding: 1.3rem;
+  margin-bottom: 1.5rem;
+
   box-shadow: 0 3px 10px rgba(0,0,0,0.05);
   transition: all 0.2s ease;
 }
 
-.archive__item:hover,
-.page:hover {
+.archive__item:hover {
   transform: translateY(-3px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
 }
 
 /* =========================================================
-   🎓 COURSES (COURSERA STYLE GRID)
+   🎓 TEACHING (COURSERA STYLE GRID)
 ========================================================= */
 
 .archive {
@@ -149,7 +145,7 @@ a:hover {
   margin: auto;
 }
 
-/* GRID SYSTEM */
+/* GRID CARDS */
 .archive__item {
   display: inline-block;
   vertical-align: top;
@@ -157,28 +153,20 @@ a:hover {
   width: calc(33.333% - 1rem);
   margin: 0.5rem;
 
-  background: var(--global-bg-color);
-  border-radius: 16px;
-  padding: 1.2rem;
-
   border-left: 4px solid #3b82f6;
-
-  transition: all 0.25s ease;
 }
 
-/* Hover effect */
+/* Teaching hover override */
 .archive__item:hover {
   transform: translateY(-6px);
 }
 
-/* Course title */
+/* Teaching text */
 .archive__item h2,
 .archive__item h3 {
   font-size: 1.05rem;
-  margin-bottom: 0.4rem;
 }
 
-/* Course text */
 .archive__item p {
   font-size: 0.9rem;
   opacity: 0.85;
