@@ -260,33 +260,53 @@ img {
 }
 
 /* =========================================================
-   🌐 NAVIGATION HOVER EFFECTS
+   🌐 NAVIGATION BAR STYLING (CLEAN + MODERN)
 ========================================================= */
 
-.greedy-nav a {
-  position: relative;
-  transition: all 0.25s ease;
+/* Base navbar container */
+.masthead {
+  background: var(--global-bg-color);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 }
 
-/* Smooth lift + color change */
+/* Navigation wrapper */
+.greedy-nav {
+  background: var(--global-bg-color);
+}
+
+/* Nav links */
+.greedy-nav a {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--global-text-color);
+  transition: transform 0.2s ease, color 0.2s ease;
+  padding: 0.4rem 0.6rem;
+  display: inline-block;
+}
+
+/* Hover effect (ONLY scale + color) */
 .greedy-nav a:hover {
-  transform: translateY(-2px);
+  transform: scale(1.08);
   color: #3b82f6;
 }
 
-/* Animated underline effect */
-.greedy-nav a::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -4px;
-  width: 0%;
-  height: 2px;
-  background: #3b82f6;
-  transition: width 0.3s ease;
+/* Active page highlight (current page) */
+.greedy-nav a.active {
+  color: #3b82f6;
+  font-weight: 700;
 }
 
-/* Expand underline on hover */
-.greedy-nav a:hover::after {
-  width: 100%;
+/* Remove any underline effects globally */
+.greedy-nav a::after {
+  display: none !important;
+}
+
+/* Mobile dropdown consistency */
+.greedy-nav__toggle {
+  color: var(--global-text-color);
+}
+
+/* Smooth spacing between items */
+.greedy-nav li {
+  margin: 0 0.2rem;
 }
