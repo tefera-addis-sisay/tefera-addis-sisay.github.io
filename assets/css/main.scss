@@ -353,3 +353,42 @@ select:focus {
     padding: 1rem;
   }
 }
+/* =========================================================
+   Teaching / Course Cards
+========================================================= */
+
+.course-card {
+  background: var(--global-bg-color);
+  border-radius: 14px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.06);
+  border-left: 4px solid #3b82f6;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.course-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.10);
+}
+
+/* Header block inside course */
+.course-header h1 {
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Meta info styling */
+.course-meta {
+  font-size: 0.95rem;
+  opacity: 0.8;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+/* Section headings inside course */
+.course-card h2 {
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+  color: #3b82f6;
+}
