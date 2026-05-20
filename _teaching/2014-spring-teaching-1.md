@@ -2,24 +2,20 @@
 title: "Cyber Law and Ethics"
 collection: teaching
 type: "Undergraduate course"
-permalink: /teaching/cyber-law-ethics/
+permalink: /teaching/cyber-law-and-ethics/
 venue: "Bahir Dar Institute of Technology, Cybersecurity"
 date: 2025-09-01
 location: "Bahir Dar, Ethiopia"
-layout: single
+layout: archive
 author_profile: true
 ---
 
-<div class="course-card">
+## Cyber Law and Ethics
 
-# Cyber Law and Ethics
-
-<div class="course-meta">
-<strong>Type:</strong> Undergraduate Course<br>
-<strong>Venue:</strong> Bahir Dar Institute of Technology, Cybersecurity<br>
-<strong>Location:</strong> Bahir Dar, Ethiopia<br>
-<strong>Date:</strong> 2025
-</div>
+**Type:** Undergraduate Course  
+**Venue:** Bahir Dar Institute of Technology, Cybersecurity  
+**Location:** Bahir Dar, Ethiopia  
+**Date:** 2025  
 
 ---
 
@@ -60,5 +56,3 @@ This course introduces students to the legal, ethical, and regulatory aspects of
 - Analyze real cyber law cases  
 - Prepare reports  
 - Propose mitigation strategies  
-
-</div>
