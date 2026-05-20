@@ -1,8 +1,9 @@
 ---
+layout: single
+title: "Project"
 collection: project
 permalink: /project/oran-security/
 author_profile: true
-layout: single
 ---
 
 ## O-RAN Security & Intelligent Network Monitoring
