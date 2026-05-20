@@ -237,8 +237,9 @@ img {
 .page__footer {
   background: var(--global-footer-bg-color);
   color: var(--global-footer-text-color);
-  margin-top: 3rem;
-  padding: 2rem 0;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  margin-top: 2rem;
 }
 
 /* =========================================================
@@ -256,4 +257,36 @@ img {
 .author__avatar img:hover {
   transform: scale(1.05);
   box-shadow: 0 6px 18px rgba(0,0,0,0.18);
+}
+
+/* =========================================================
+   🌐 NAVIGATION HOVER EFFECTS
+========================================================= */
+
+.greedy-nav a {
+  position: relative;
+  transition: all 0.25s ease;
+}
+
+/* Smooth lift + color change */
+.greedy-nav a:hover {
+  transform: translateY(-2px);
+  color: #3b82f6;
+}
+
+/* Animated underline effect */
+.greedy-nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0%;
+  height: 2px;
+  background: #3b82f6;
+  transition: width 0.3s ease;
+}
+
+/* Expand underline on hover */
+.greedy-nav a:hover::after {
+  width: 100%;
 }
