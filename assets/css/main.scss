@@ -46,36 +46,43 @@
    Global Website Styling
 ========================================================= */
 
-/* Smooth scrolling */
 html {
   scroll-behavior: smooth;
 }
 
-/* Body Styling */
 body {
   font-family: "Segoe UI", Roboto, sans-serif;
   line-height: 1.8;
   font-size: 17px;
-  color: #2c2c2c;
-  background-color: #fafafa;
+
+  /* Dark/Light mode compatible */
+  background-color: var(--global-bg-color);
+  color: var(--global-text-color);
+
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* Main content area */
+/* Main Content Width */
 .page__content {
   max-width: 900px;
   margin: auto;
 }
 
 /* =========================================================
-   Headings
+   Typography
 ========================================================= */
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 700;
   line-height: 1.4;
   margin-top: 1.8rem;
   margin-bottom: 1rem;
-  color: #111827;
+  color: var(--global-text-color);
 }
 
 h1 {
@@ -86,23 +93,20 @@ h1 {
 
 h2 {
   font-size: 1.8rem;
-  color: #1e40af;
+  color: #2563eb;
 }
 
 h3 {
   font-size: 1.4rem;
-  color: #2563eb;
+  color: #3b82f6;
 }
-
-/* =========================================================
-   Paragraphs & Lists
-========================================================= */
 
 p {
   margin-bottom: 1.2rem;
 }
 
-ul, ol {
+ul,
+ol {
   margin-left: 1.5rem;
   margin-bottom: 1.5rem;
 }
@@ -116,13 +120,13 @@ li {
 ========================================================= */
 
 a {
-  color: #2563eb;
+  color: #3b82f6;
   text-decoration: none;
-  transition: 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 a:hover {
-  color: #1d4ed8;
+  color: #60a5fa;
   text-decoration: underline;
 }
 
@@ -131,18 +135,22 @@ a:hover {
 ========================================================= */
 
 .masthead {
-  background: #ffffff;
-  border-bottom: 1px solid #e5e7eb;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  background: var(--global-bg-color);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.greedy-nav {
+  background: var(--global-bg-color);
 }
 
 .greedy-nav a {
   font-weight: 600;
-  color: #111827;
+  color: var(--global-text-color);
 }
 
 .greedy-nav a:hover {
-  color: #2563eb;
+  color: #3b82f6;
 }
 
 /* =========================================================
@@ -150,16 +158,39 @@ a:hover {
 ========================================================= */
 
 .sidebar {
-  background: #ffffff;
+  background: var(--global-bg-color);
   padding: 1rem;
   border-radius: 12px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
 }
 
-/* Profile image */
+/* Profile Image */
+
 .author__avatar img {
   border-radius: 50%;
-  border: 4px solid #2563eb;
+  border: 4px solid #3b82f6;
+}
+
+/* =========================================================
+   Cards / Sections
+========================================================= */
+
+.archive__item,
+.page {
+  background: var(--global-bg-color);
+  padding: 1.5rem;
+  border-radius: 14px;
+  margin-bottom: 2rem;
+
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.archive__item:hover,
+.page:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
 }
 
 /* =========================================================
@@ -169,13 +200,33 @@ a:hover {
 .btn,
 button {
   border-radius: 8px;
-  transition: all 0.3s ease;
   font-weight: 600;
+  transition: all 0.3s ease;
 }
 
 .btn:hover,
 button:hover {
   transform: translateY(-2px);
+}
+
+/* =========================================================
+   Tables
+========================================================= */
+
+table {
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100%;
+}
+
+thead {
+  background: #2563eb;
+  color: white;
+}
+
+th,
+td {
+  padding: 0.8rem;
 }
 
 /* =========================================================
@@ -189,48 +240,6 @@ code {
 }
 
 /* =========================================================
-   Tables
-========================================================= */
-
-table {
-  border-radius: 10px;
-  overflow: hidden;
-}
-
-thead {
-  background: #2563eb;
-  color: white;
-}
-
-/* =========================================================
-   Footer
-========================================================= */
-
-.page__footer {
-  background: #111827;
-  color: #d1d5db;
-  padding: 2rem 0;
-  margin-top: 3rem;
-}
-
-.page__footer a {
-  color: #93c5fd;
-}
-
-/* =========================================================
-   Cards / Sections
-========================================================= */
-
-.archive__item,
-.page {
-  background: #ffffff;
-  padding: 1.5rem;
-  border-radius: 14px;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.05);
-  margin-bottom: 2rem;
-}
-
-/* =========================================================
    Images
 ========================================================= */
 
@@ -240,14 +249,70 @@ img {
 }
 
 /* =========================================================
-   Horizontal Line
+   Horizontal Lines
 ========================================================= */
 
 hr {
   border: none;
   height: 1px;
-  background: #d1d5db;
+  background: rgba(128, 128, 128, 0.2);
   margin: 2rem 0;
+}
+
+/* =========================================================
+   Footer
+========================================================= */
+
+.page__footer {
+  background: var(--global-footer-bg-color);
+  color: var(--global-footer-text-color);
+  padding: 2rem 0;
+  margin-top: 3rem;
+}
+
+.page__footer a {
+  color: #93c5fd;
+}
+
+/* =========================================================
+   Forms
+========================================================= */
+
+input,
+textarea,
+select {
+  border-radius: 8px;
+  border: 1px solid rgba(128, 128, 128, 0.3);
+  padding: 0.7rem;
+  width: 100%;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border-color: #3b82f6;
+}
+
+/* =========================================================
+   Animations
+========================================================= */
+
+.page__content,
+.archive__item {
+  animation: fadeIn 0.4s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* =========================================================
@@ -268,11 +333,20 @@ hr {
     font-size: 1.5rem;
   }
 
+  h3 {
+    font-size: 1.2rem;
+  }
+
   .page__content {
     padding: 0 1rem;
   }
 
   .sidebar {
     margin-top: 2rem;
+  }
+
+  .archive__item,
+  .page {
+    padding: 1rem;
   }
 }
