@@ -8,6 +8,8 @@ date: 2025-09-01
 location: "Bahir Dar, Ethiopia"
 layout: archive
 author_profile: true
+
+order: 1
 ---
 
 ## Computer Programming (C++)
@@ -21,7 +23,7 @@ author_profile: true
 
 ## 📘 Course Description
 
-This course introduces fundamental concepts of computer programming using C++.
+This course introduces fundamental concepts of computer programming using C++.  
 Students learn how to design algorithms, write structured programs, and develop object-oriented software solutions.
 
 ---
@@ -64,8 +66,5 @@ By the end of this course, students will be able to:
 
 ## 🛠 Teaching Notes
 
-This course emphasizes hands-on programming practice and weekly lab exercises.
+This course emphasizes hands-on programming practice and weekly lab exercises.  
 Students are expected to write code regularly and complete programming assignments.
-
----
-
