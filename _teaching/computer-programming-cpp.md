@@ -68,22 +68,4 @@ This course emphasizes hands-on programming practice and weekly lab exercises.
 Students are expected to write code regularly and complete programming assignments.
 
 ---
-<div class="post-navigation">
-  {% if page.previous and page.previous.url %}
-    <a class="nav-card prev" href="{{ page.previous.url }}">
-      <span class="nav-label">← Previous</span>
-      <span class="nav-title">{{ page.previous.title }}</span>
-    </a>
-  {% else %}
-    <div></div>
-  {% endif %}
 
-  {% if page.next and page.next.url %}
-    <a class="nav-card next" href="{{ page.next.url }}">
-      <span class="nav-label">Next →</span>
-      <span class="nav-title">{{ page.next.title }}</span>
-    </a>
-  {% else %}
-    <div></div>
-  {% endif %}
-</div>
