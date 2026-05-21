@@ -8,6 +8,8 @@ date: 2025-09-01
 location: "Bahir Dar, Ethiopia"
 layout: archive
 author_profile: true
+
+order: 3
 ---
 
 ## Emerging Technologies
@@ -21,9 +23,7 @@ author_profile: true
 
 ## 📘 Course Description
 
-This course explores modern and emerging technologies shaping the future of computing, including artificial intelligence, Internet of Things (IoT), cloud computing, blockchain, and edge computing.
-
-It introduces students to rapidly evolving technologies that are transforming industries and society.
+This course explores modern and emerging technologies shaping the future of computing and engineering. Students are introduced to trends such as artificial intelligence, cloud computing, IoT, and blockchain.
 
 ---
 
@@ -32,40 +32,33 @@ It introduces students to rapidly evolving technologies that are transforming in
 By the end of this course, students will be able to:
 
 - Understand key emerging technologies
-- Analyze real-world applications of new technologies
-- Evaluate the impact of AI, IoT, and cloud computing
-- Explore trends in blockchain and edge computing
-- Develop awareness of future technology directions
+- Analyze their impact on society and industry
+- Evaluate real-world applications
+- Identify future trends in computing systems
 
 ---
 
 ## 🧠 Topics Covered
 
-- Introduction to Emerging Technologies
-- Artificial Intelligence and Machine Learning basics
+- Artificial Intelligence and Machine Learning
+- Cloud Computing and Edge Computing
 - Internet of Things (IoT)
-- Cloud Computing and Virtualization
-- Blockchain technology
-- Edge and Fog Computing
-- Big Data and Analytics
-- 5G and future communication systems
-- Ethical and societal implications of technology
+- Blockchain Technology
+- Big Data Analytics
+- Cyber-Physical Systems
+- Future trends in computing
 
 ---
 
 ## 🧪 Assessment
 
 - Assignments: 30%
-- Presentations: 20%
+- Project work: 30%
 - Midterm exam: 20%
-- Final exam/project: 30%
+- Final exam: 20%
 
 ---
 
-## 🛠 Practical Work
+## 🛠 Teaching Notes
 
-Students will work on:
-
-- Case study analysis of emerging technologies  
-- Small research or presentation project on a selected technology  
-- Exploration of real-world applications and impact  
+This course emphasizes research-oriented learning and exposure to cutting-edge technologies. Students are encouraged to explore real-world systems and innovations.
