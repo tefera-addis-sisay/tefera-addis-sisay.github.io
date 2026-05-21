@@ -1,0 +1,27 @@
+<div class="post-navigation">
+
+  {% assign items = site.teaching | sort: "order" %}
+
+  {% for item in items %}
+    {% if item.url == page.url %}
+      {% assign i = forloop.index0 %}
+    {% endif %}
+  {% endfor %}
+
+  {% if i > 0 %}
+    {% assign prev = items[i | minus: 1] %}
+    <a class="nav-card prev" href="{{ prev.url }}">
+      <span class="nav-label">← Previous</span>
+      <span class="nav-title">{{ prev.title }}</span>
+    </a>
+  {% endif %}
+
+  {% if i < items.size - 1 %}
+    {% assign next = items[i | plus: 1] %}
+    <a class="nav-card next" href="{{ next.url }}">
+      <span class="nav-label">Next →</span>
+      <span class="nav-title">{{ next.title }}</span>
+    </a>
+  {% endif %}
+
+</div>
