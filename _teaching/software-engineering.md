@@ -4,6 +4,8 @@ collection: teaching
 permalink: /teaching/software-engineering/
 layout: archive
 author_profile: true
+
+order: 0
 ---
 
 ## Software Engineering
