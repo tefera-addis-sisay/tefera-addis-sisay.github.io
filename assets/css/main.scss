@@ -310,3 +310,19 @@ img {
 .greedy-nav li {
   margin: 0 0.2rem;
 }
+.post-navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+}
+
+.post-navigation a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.post-navigation a:hover {
+  font-size: 1.05em;
+}
