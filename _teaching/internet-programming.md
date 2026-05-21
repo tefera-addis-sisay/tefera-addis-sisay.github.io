@@ -8,6 +8,8 @@ date: 2025-09-01
 location: "Bahir Dar, Ethiopia"
 layout: archive
 author_profile: true
+
+order: 4
 ---
 
 ## Internet Programming
