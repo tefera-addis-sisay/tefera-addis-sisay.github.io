@@ -1,6 +1,3 @@
----
----
-
 /*
  * This file controls what is imported from /_sass
  *
@@ -41,6 +38,7 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
 /* =========================================================
    GLOBAL BASE IMPROVEMENTS (SAFE)
 ========================================================= */
@@ -56,9 +54,10 @@ body {
 .page__content {
   max-width: 1050px;
   margin: auto;
+  animation: fadeIn 0.3s ease;
 }
 
-/* Headings (balanced, not too large) */
+/* Headings */
 h1 {
   font-size: 1.9rem;
   border-bottom: 2px solid #3b82f6;
@@ -84,30 +83,20 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Smooth animations */
-.page__content {
-  animation: fadeIn 0.3s ease;
-}
-
+/* Fade animation */
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(8px); }
   to { opacity: 1; transform: translateY(0); }
 }
 
-/* =========================================================
-   SIDEBAR (CLEAN)
-========================================================= */
-
+/* Sidebar */
 .sidebar {
   background: var(--global-bg-color);
   border-radius: 12px;
   padding: 1rem;
 }
 
-/* =========================================================
-   TABLES + MEDIA
-========================================================= */
-
+/* Tables */
 table {
   width: 100%;
   border-radius: 10px;
@@ -125,7 +114,7 @@ img {
 }
 
 /* =========================================================
-   🌐 SERVICES PAGE (PROFESSIONAL PROFILE STYLE)
+   SERVICES PAGE
 ========================================================= */
 
 .page--services .page__content {
@@ -144,29 +133,13 @@ img {
   color: #10b981;
 }
 
-.page--services ul {
-  padding-left: 1.2rem;
-}
-
-.page--services li {
-  margin-bottom: 0.4rem;
-  line-height: 1.6;
-}
-
-/* CTA line */
-.page--services p:last-child {
-  font-weight: 600;
-  color: #10b981;
-}
-
 /* =========================================================
-   🎓 TEACHING PAGE (COURSERA STYLE GRID)
+   TEACHING GRID
 ========================================================= */
 
 .page--teaching .archive__item {
   display: inline-block;
   vertical-align: top;
-
   width: calc(33.333% - 1rem);
   margin: 0.5rem;
 
@@ -175,7 +148,6 @@ img {
   padding: 1.2rem;
 
   border-left: 4px solid #3b82f6;
-
   box-shadow: 0 3px 10px rgba(0,0,0,0.06);
   transition: all 0.25s ease;
 }
@@ -184,7 +156,6 @@ img {
   transform: translateY(-6px);
 }
 
-/* Teaching responsive */
 @media (max-width: 992px) {
   .page--teaching .archive__item {
     width: calc(50% - 1rem);
@@ -198,7 +169,7 @@ img {
 }
 
 /* =========================================================
-   📦 PROJECTS PAGE (OPTIONAL GRID READY)
+   PROJECTS
 ========================================================= */
 
 .page--projects .archive__item {
@@ -208,7 +179,6 @@ img {
   margin-bottom: 1.5rem;
 
   border-left: 4px solid #6366f1;
-
   box-shadow: 0 3px 10px rgba(0,0,0,0.05);
   transition: all 0.2s ease;
 }
@@ -218,7 +188,7 @@ img {
 }
 
 /* =========================================================
-   📚 PUBLICATIONS / TALKS (CLEAN LIST STYLE)
+   PUBLICATIONS / TALKS
 ========================================================= */
 
 .page--publications .archive__item,
@@ -242,10 +212,7 @@ img {
   margin-top: 2rem;
 }
 
-/* =========================================================
-   👤 PROFILE IMAGE (SIDEBAR AVATAR)
-========================================================= */
-
+/* Avatar */
 .author__avatar img {
   border-radius: 50%;
   border: 4px solid #3b82f6;
@@ -260,21 +227,14 @@ img {
 }
 
 /* =========================================================
-   🌐 NAVIGATION BAR STYLING (CLEAN + MODERN)
+   NAVIGATION BAR
 ========================================================= */
 
-/* Base navbar container */
 .masthead {
   background: var(--global-bg-color);
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 }
 
-/* Navigation wrapper */
-.greedy-nav {
-  background: var(--global-bg-color);
-}
-
-/* Nav links */
 .greedy-nav a {
   font-weight: 600;
   font-size: 0.95rem;
@@ -284,45 +244,72 @@ img {
   display: inline-block;
 }
 
-/* Hover effect (ONLY scale + color) */
 .greedy-nav a:hover {
   transform: scale(1.08);
   color: #3b82f6;
 }
 
-/* Active page highlight (current page) */
 .greedy-nav a.active {
   color: #3b82f6;
   font-weight: 700;
 }
 
-/* Remove any underline effects globally */
-.greedy-nav a::after {
-  display: none !important;
-}
+/* =========================================================
+   ✅ FIXED POST NAVIGATION (ONLY ONE VERSION)
+========================================================= */
 
-/* Mobile dropdown consistency */
-.greedy-nav__toggle {
-  color: var(--global-text-color);
-}
-
-/* Smooth spacing between items */
-.greedy-nav li {
-  margin: 0 0.2rem;
-}
 .post-navigation {
   display: flex;
   justify-content: space-between;
-  margin-top: 40px;
-  padding-top: 20px;
-  border-top: 1px solid #ddd;
+  gap: 20px;
+  margin-top: 50px;
+  padding-top: 25px;
+  border-top: 1px solid #e6e6e6;
 }
 
-.post-navigation a {
+.nav-card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+
+  padding: 16px 18px;
+  border: 1px solid #e6e6e6;
+  border-radius: 12px;
+
   text-decoration: none;
-  font-weight: 500;
+  background: #fff;
+
+  transition: all 0.25s ease;
 }
 
-.post-navigation a:hover {
-  font-size: 1.05em;
+.nav-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 22px rgba(0,0,0,0.08);
+  border-color: #999;
+}
+
+.nav-label {
+  font-size: 0.85rem;
+  color: #777;
+  margin-bottom: 6px;
+}
+
+.nav-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #111;
+}
+
+.nav-card.next {
+  text-align: right;
+}
+
+@media (max-width: 600px) {
+  .post-navigation {
+    flex-direction: column;
+  }
+
+  .nav-card.next {
+    text-align: left;
+  }
 }
