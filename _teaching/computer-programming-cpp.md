@@ -66,3 +66,15 @@ By the end of this course, students will be able to:
 
 This course emphasizes hands-on programming practice and weekly lab exercises.
 Students are expected to write code regularly and complete programming assignments.
+
+---
+
+<div class="post-navigation">
+  {% if page.previous %}
+    <a class="prev" href="{{ page.previous.url }}">&larr; Previous: {{ page.previous.title }}</a>
+  {% endif %}
+
+  {% if page.next %}
+    <a class="next" href="{{ page.next.url }}">Next: {{ page.next.title }} &rarr;</a>
+  {% endif %}
+</div>
