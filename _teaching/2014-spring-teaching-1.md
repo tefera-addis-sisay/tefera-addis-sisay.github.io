@@ -9,7 +9,6 @@ location: "Bahir Dar, Ethiopia"
 layout: archive
 author_profile: true
 
-order: 2
 ---
 
 ## Cyber Law and Ethics
