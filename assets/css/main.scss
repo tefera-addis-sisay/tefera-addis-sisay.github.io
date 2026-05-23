@@ -4,8 +4,9 @@
 /*
  * This file controls what is imported from /_sass
  *
- * Note that the files are processed in the order they are imported, so they are partly
-   sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
+ * Note that the files are processed in the order they are imported,
+ * so they are partly sorted by the dependencies.
+ * The first two lines are required by Jekyll.
  */
 
 @import
@@ -54,19 +55,56 @@ body {
   color: var(--global-text-color);
 }
 
+/* smoother page width and visual centering */
+.page {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+/* main content area */
 .page__content {
-  max-width: 1050px;
-  margin: auto;
+  max-width: 1080px;
+
+  /* visually shift slightly right */
+  margin-left: auto;
+  margin-right: auto;
+
+  padding-left: 2rem;
+  padding-right: 1rem;
+
   animation: fadeIn 0.3s ease;
 }
 
-/* Fade in */
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(8px); }
-  to { opacity: 1; transform: translateY(0); }
+/* better spacing */
+.archive,
+.page__inner-wrap {
+  padding-top: 1rem;
 }
 
-/* Headings */
+/* desktop alignment polish */
+@media (min-width: 1200px) {
+  .page {
+    padding-left: 2.5rem;
+  }
+}
+
+/* Fade in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* =========================================================
+   HEADINGS
+========================================================= */
+
 h1 {
   font-size: 1.9rem;
   border-bottom: 2px solid #3b82f6;
@@ -82,10 +120,14 @@ h3 {
   font-size: 1.15rem;
 }
 
-/* Links (no underline except intentional hover) */
+/* =========================================================
+   LINKS
+========================================================= */
+
 a {
   color: #3b82f6;
   text-decoration: none;
+  transition: all 0.25s ease;
 }
 
 a:hover {
@@ -94,14 +136,16 @@ a:hover {
 }
 
 /* =========================================================
-   PROFILE PHOTO (POLISHED)
+   PROFILE PHOTO
 ========================================================= */
 
 .author__avatar img {
   border-radius: 50%;
   border: 4px solid #3b82f6;
   padding: 2px;
+
   box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+
   transition: all 0.3s ease;
 }
 
@@ -111,29 +155,46 @@ a:hover {
 }
 
 /* =========================================================
-   NAVIGATION BAR (CLEAN MODERN)
+   NAVIGATION BAR
 ========================================================= */
+
+.masthead {
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+}
+
+.greedy-nav {
+  background: transparent;
+}
 
 .greedy-nav a {
   text-decoration: none !important;
   font-weight: 600;
-  font-size: 0.95rem;
+  font-size: 0.96rem;
+
   color: var(--global-text-color);
-  padding: 0.4rem 0.6rem;
+
+  padding: 0.45rem 0.7rem;
+  margin: 0 0.15rem;
+
   display: inline-block;
+
+  border-radius: 8px;
+
   transition: all 0.25s ease;
   position: relative;
 }
 
-/* remove any underline system */
+/* remove underline system */
 .greedy-nav a::after {
   display: none !important;
 }
 
 /* hover effect */
 .greedy-nav a:hover {
-  transform: translateY(-2px);
+  transform: translateY(-2px) scale(1.03);
   color: #3b82f6;
+  background: rgba(59,130,246,0.08);
 }
 
 /* active page */
@@ -143,29 +204,47 @@ a:hover {
 }
 
 /* =========================================================
-   POST NAVIGATION (MODERN CARDS)
+   CONTENT CARDS / SECTIONS
+========================================================= */
+
+.page__content p,
+.page__content li {
+  color: var(--global-text-color);
+}
+
+.page__content img {
+  border-radius: 12px;
+}
+
+/* =========================================================
+   POST NAVIGATION
 ========================================================= */
 
 .post-navigation {
   display: flex;
   justify-content: space-between;
   gap: 20px;
+
   margin-top: 50px;
   padding-top: 25px;
+
   border-top: 1px solid #e5e5e5;
 }
 
-/* card */
+/* cards */
 .nav-card {
   flex: 1;
+
   display: flex;
   flex-direction: column;
+
   padding: 16px 18px;
 
   border: 1px solid #e5e5e5;
-  border-radius: 12px;
+  border-radius: 14px;
 
   background: #fff;
+
   text-decoration: none !important;
 
   transition: all 0.25s ease;
@@ -197,8 +276,39 @@ a:hover {
   text-align: right;
 }
 
-/* mobile */
+/* =========================================================
+   TABLES
+========================================================= */
+
+table {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+thead {
+  background: #3b82f6;
+  color: white;
+}
+
+/* =========================================================
+   MOBILE OPTIMIZATION
+========================================================= */
+
+@media (max-width: 900px) {
+
+  .page__content {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .greedy-nav a {
+    padding: 0.35rem 0.5rem;
+    font-size: 0.92rem;
+  }
+}
+
 @media (max-width: 600px) {
+
   .post-navigation {
     flex-direction: column;
   }
@@ -206,10 +316,18 @@ a:hover {
   .nav-card.next {
     text-align: left;
   }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+  }
 }
 
 /* =========================================================
-   DARK MODE POLISH (FULL SUPPORT)
+   DARK MODE
 ========================================================= */
 
 @media (prefers-color-scheme: dark) {
@@ -237,28 +355,30 @@ a:hover {
     color: #60a5fa;
   }
 
-  /* nav bar */
+  /* masthead */
   .masthead {
-    background: #0f172a;
+    background: rgba(15,23,42,0.9);
     border-bottom: 1px solid #1f2937;
   }
 
+  /* nav */
   .greedy-nav a {
     color: #e5e7eb;
   }
 
   .greedy-nav a:hover {
     color: #60a5fa;
+    background: rgba(96,165,250,0.12);
   }
 
-  /* post nav cards */
+  /* post cards */
   .nav-card {
     background: #111827;
     border-color: #1f2937;
   }
 
   .nav-card:hover {
-    box-shadow: 0 12px 26px rgba(0,0,0,0.4);
+    box-shadow: 0 12px 26px rgba(0,0,0,0.45);
   }
 
   .nav-title {
@@ -276,6 +396,6 @@ a:hover {
 
   /* tables */
   thead {
-    background: #1d4ed8;
+    background: #2563eb;
   }
 }
