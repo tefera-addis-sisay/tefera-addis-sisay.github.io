@@ -5,10 +5,8 @@ type: "Undergraduate Course"
 permalink: /teaching/cyber-law-and-ethics/
 layout: single
 author_profile: true
-
 venue: "Bahir Dar Institute of Technology, Cybersecurity"
 location: "Bahir Dar, Ethiopia"
-
 date: 2025-09-01
 ---
 
