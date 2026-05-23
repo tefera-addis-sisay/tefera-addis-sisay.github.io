@@ -2,10 +2,9 @@
 title: "Software Engineering"
 collection: teaching
 permalink: /teaching/software-engineering/
-layout: archive
+layout: single
 author_profile: true
-
-order: 0
+date: 2025-09-01
 ---
 
 ## Software Engineering
