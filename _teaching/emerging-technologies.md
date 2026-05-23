@@ -1,14 +1,13 @@
 ---
-title: "Emerging Technologies"
+title: "Teaching experience 1"
 collection: teaching
 type: "Undergraduate course"
-permalink: /teaching/emerging-technologies/
-venue: "Bahir Dar Institute of Technology, Software Engineering"
-date: 2025-09-01
-location: "Bahir Dar, Ethiopia"
-layout: single
-author_profile: true
+permalink: /teaching/2014-spring-teaching-1
+venue: "University 1, Department"
+date: 2014-01-01
+location: "City, Country"
 ---
+
 
 ## Emerging Technologies
 
