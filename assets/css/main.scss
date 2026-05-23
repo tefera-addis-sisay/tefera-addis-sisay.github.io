@@ -2,7 +2,7 @@
 ---
 
 /*
- * Jekyll / Minimal Mistakes main stylesheet imports
+ * Jekyll / Minimal Mistakes core imports
  */
 
 @import
@@ -40,7 +40,7 @@
 ;
 
 /* =========================================================
-   MODERN ACADEMIC (SUTD-STYLE CLEAN DESIGN)
+   MODERN ACADEMIC (SUTD STYLE CLEAN DESIGN)
 ========================================================= */
 
 /* -------------------------
@@ -56,7 +56,7 @@ body {
 }
 
 /* -------------------------
-   GLOBAL LAYOUT FIX (ALL PAGES CONSISTENT)
+   GLOBAL LAYOUT (ALL PAGES CONSISTENT)
 -------------------------- */
 
 .page,
@@ -69,7 +69,7 @@ body {
   margin-right: auto;
 }
 
-/* inner spacing */
+/* padding for breathing space */
 .page__content,
 .page__inner-wrap,
 .archive {
@@ -77,7 +77,23 @@ body {
   padding-right: 2rem;
 }
 
-/* smooth load */
+/* -------------------------
+   GLOBAL RIGHT SHIFT (FINAL STYLE TOUCH)
+-------------------------- */
+
+/* subtle visual offset to the right */
+.page__inner-wrap {
+  transform: translateX(15px);
+}
+
+/* disable shift on mobile */
+@media (max-width: 900px) {
+  .page__inner-wrap {
+    transform: none;
+  }
+}
+
+/* smooth entry animation */
 .page__content {
   animation: fadeIn 0.35s ease;
 }
@@ -167,26 +183,19 @@ a:hover {
 }
 
 /* -------------------------
-   MOBILE MENU FIX (IMPORTANT)
+   MOBILE MENU FIX
 -------------------------- */
 
-/* hamburger always visible */
 .greedy-nav__toggle {
   display: block !important;
   z-index: 9999;
 }
 
-/* dropdown visibility */
 .greedy-nav__menu {
   z-index: 9998;
 }
 
 .masthead__inner-wrap {
-  overflow: visible !important;
-}
-
-/* ensure nav does not clip dropdown */
-.greedy-nav .visible-links {
   overflow: visible !important;
 }
 
