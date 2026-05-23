@@ -123,6 +123,7 @@ collections:
   teaching:
     output: true
     permalink: /:collection/:path/
+    sort_by: date
 
   publications:
     output: true
