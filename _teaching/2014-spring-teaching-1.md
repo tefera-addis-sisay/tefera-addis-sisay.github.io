@@ -1,14 +1,13 @@
 ---
-title: "Cyber Law and Ethics"
+title: "Teaching experience 1"
 collection: teaching
-type: "Undergraduate Course"
-permalink: /teaching/cyber-law-and-ethics/
-layout: single
-author_profile: true
-venue: "Bahir Dar Institute of Technology, Cybersecurity"
-location: "Bahir Dar, Ethiopia"
-date: 2025-09-01
+type: "Undergraduate course"
+permalink: /teaching/2014-spring-teaching-1
+venue: "University 1, Department"
+date: 2014-01-01
+location: "City, Country"
 ---
+
 
 ## Cyber Law and Ethics
 
