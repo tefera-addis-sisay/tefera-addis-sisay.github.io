@@ -3,14 +3,12 @@ title: "Cyber Law and Ethics"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/cyber-law-and-ethics/
+layout: single
+author_profile: true
 venue: "Bahir Dar Institute of Technology, Cybersecurity"
 date: 2025-09-01
 location: "Bahir Dar, Ethiopia"
-layout: archive
-author_profile: true
-
 ---
-
 ## Cyber Law and Ethics
 
 **Type:** Undergraduate Course  
