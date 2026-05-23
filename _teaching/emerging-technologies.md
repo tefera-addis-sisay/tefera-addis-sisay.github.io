@@ -6,10 +6,8 @@ permalink: /teaching/emerging-technologies/
 venue: "Bahir Dar Institute of Technology, Software Engineering"
 date: 2025-09-01
 location: "Bahir Dar, Ethiopia"
-layout: archive
+layout: single
 author_profile: true
-
-order: 3
 ---
 
 ## Emerging Technologies
