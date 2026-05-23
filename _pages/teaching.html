@@ -7,8 +7,6 @@ author_profile: true
 
 {% include base_path %}
 
-{% assign sorted_teaching = site.teaching | sort: "order" %}
-
-{% for post in sorted_teaching %}
+{% for post in site.teaching reversed %}
   {% include archive-single.html %}
 {% endfor %}
