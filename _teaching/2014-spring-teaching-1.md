@@ -8,16 +8,6 @@ date: 2014-01-01
 location: "City, Country"
 ---
 
-
-## Cyber Law and Ethics
-
-**Type:** Undergraduate Course  
-**Venue:** Bahir Dar Institute of Technology, Cybersecurity  
-**Location:** Bahir Dar, Ethiopia  
-**Date:** 2025  
-
----
-
 ## 📘 Course Description
 
 This course introduces students to the legal, ethical, and regulatory aspects of cyberspace. It covers key principles of cyber law, governance, and digital ethics in modern computing environments.
