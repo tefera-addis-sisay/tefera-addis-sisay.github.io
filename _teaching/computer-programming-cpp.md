@@ -5,10 +5,8 @@ type: "Undergraduate Course"
 permalink: /teaching/computer-programming-cpp/
 layout: single
 author_profile: true
-
 venue: "Bahir Dar Institute of Technology, Software Engineering"
 location: "Bahir Dar, Ethiopia"
-
 date: 2025-09-01
 ---
 
