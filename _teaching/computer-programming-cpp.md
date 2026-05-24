@@ -1,21 +1,9 @@
 ---
-title: "Teaching experience 1"
-collection: teaching
-type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
----
-
-
-## Computer Programming (C++)
-
-**Type:** Undergraduate Course  
-**Venue:** Bahir Dar Institute of Technology, Software Engineering  
-**Location:** Bahir Dar, Ethiopia  
-**Date:** 2025  
-
+course: "Computer Programming (C++)"
+institution: "Bahir Dar Institute of Technology, Software Engineering"
+date: 2025-01-01
+role: "Undergraduate course"
+excerpt: "An introductory course covering programming fundamentals using C++. Topics include variables, control structures, functions, arrays, pointers, object-oriented programming, and problem-solving techniques with practical lab exercises."
 ---
 
 ## 📘 Course Description
