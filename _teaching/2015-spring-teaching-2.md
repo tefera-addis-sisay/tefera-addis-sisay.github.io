@@ -2,7 +2,7 @@
 title: "Internet Programming"
 collection: teaching
 type: "Undergraduate Course"
-permalink: /teaching/2015-spring-teaching-2/
+permalink: /teaching/internet-programming/
 venue: "Bahir Dar Institute of Technology, Bahir Dar University"
 date: 2026-01-01
 location: "Bahir Dar, Ethiopia"
