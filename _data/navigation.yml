@@ -11,17 +11,17 @@ main:
   - title: "CV"
     url: /cv/
 
- # - title: "Publications"
- #   url: /publications/
+  - title: "Publications"
+    url: /publications/
 
-  #- title: "Talks"
-   # url: /talks/
+  - title: "Talks"
+    url: /talks/
 
   - title: "Teaching"
     url: /teaching/
 
-  #- title: "Services"
-  #  url: /services/
+  - title: "Services"
+    url: /services/
 
   #- title: "CV"
   #  url: /cv-json/
@@ -29,6 +29,6 @@ main:
  # - title: "Services"
  #   url: /markdown/
 
- # - title: "Projects"
-#   url: /project/
+ - title: "Projects"
+   url: /project/
 
