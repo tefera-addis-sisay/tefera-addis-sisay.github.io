@@ -2,7 +2,7 @@
 title: "Object Oriented Design"
 collection: teaching
 type: "Undergraduate Course"
-permalink: /teaching/object-oriented-design/
+permalink: /teaching/2014-spring-teaching-3.md/
 venue: "Bahir Dar Institute of Technology, Bahir Dar University"
 date: 2026-01-01
 location: "Bahir Dar, Ethiopia"
