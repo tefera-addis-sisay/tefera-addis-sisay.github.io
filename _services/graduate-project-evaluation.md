@@ -6,7 +6,7 @@ layout: single
 author_profile: true
 ---
 
-# Graduate Student Project Evaluation
+# Projects Evaluation
 
 As part of my academic service responsibilities, I evaluated **12 undergraduate final-year group projects** as a **capstone assessment evaluator** for **BSc (IT/Bed) students at Bahir Dar Institute of Technology, Bahir Dar University (2026 graduating cohort)**.
 
