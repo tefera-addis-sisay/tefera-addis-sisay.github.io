@@ -5,6 +5,7 @@ permalink: /project/ves-collector/
 author_profile: true
 layout: single
 ---
+<div class="project-entry">
 ## VES Collector for Network Telemetry
 
 Design and implementation of a VES (Virtualized Event Streaming) Collector for real-time RAN event ingestion and processing.
@@ -24,3 +25,4 @@ Enables real-time visibility into RAN events and supports anomaly detection pipe
 
 ### 🔗 Related
 - [ONAP VES Documentation](https://docs.onap.org/)
+</div>
