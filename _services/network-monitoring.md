@@ -5,7 +5,7 @@ permalink: /services/network-monitoring/
 layout: single
 author_profile: true
 excerpt: "Design and development of intelligent, scalable network monitoring and anomaly detection systems for modern network infrastructures."
------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 # Intelligent Network Monitoring Systems
 
@@ -15,80 +15,72 @@ I design and develop **intelligent, scalable, and real-time network monitoring s
 
 ## Overview
 
-Modern networks require more than traditional monitoring tools. I build **intelligent monitoring solutions** that combine real-time data processing, machine learning techniques, and scalable streaming architectures to detect issues early and improve system reliability.
+Modern networks require more than traditional monitoring tools. I build intelligent monitoring solutions that combine real-time data processing, streaming architectures, and analytics to detect issues early and improve reliability.
 
-These systems are particularly applicable to **O-RAN environments, cloud-native networks, and large-scale distributed systems**.
+These systems are especially useful in **O-RAN environments, cloud-native systems, and large-scale distributed networks**.
 
 ---
 
 ## Core Services
 
 ### Real-Time Network Monitoring
+Continuous monitoring of:
+- Network traffic
+- System metrics
+- Service performance
 
-Continuous monitoring of network traffic, system metrics, and service behavior to ensure operational visibility and performance tracking.
-
-### Anomaly Detection Systems
-
-Development of intelligent detection pipelines that identify:
-
-* Performance degradation
-* Unusual traffic patterns
-* Security anomalies
-* System failures and bottlenecks
+### Anomaly Detection
+Detection of:
+- Performance degradation  
+- Security anomalies  
+- Unusual traffic patterns  
+- System failures  
 
 ### Performance Analysis
+Deep analysis of network behavior to identify bottlenecks and inefficiencies.
 
-In-depth analysis of network performance metrics to identify inefficiencies and optimize system behavior.
+### Security Visualization
+Visual dashboards for security events and system alerts.
 
-### Security Event Visualization
+### Metrics & Dashboards
+- Data collection pipelines  
+- Time-series storage  
+- Grafana-based dashboards  
 
-Visualization of security-related events to support rapid detection and response to potential threats.
-
-### Metrics Collection & Dashboards
-
-Design of structured telemetry systems with interactive dashboards for real-time monitoring and historical analysis.
-
-### Containerized Monitoring Environments
-
-Deployment of scalable monitoring systems using container technologies for reproducibility and portability.
+### Containerized Monitoring Systems
+Deployment using:
+- Docker  
+- Kubernetes  
+- Microservices architecture  
 
 ---
 
 ## Technologies
 
-I work with modern data engineering and observability tools, including:
-
-* Grafana
-* InfluxDB
-* Apache Kafka
-* Python
-* Docker
-* Kubernetes
-* Prometheus (when applicable)
+- Grafana  
+- InfluxDB  
+- Kafka  
+- Python  
+- Docker  
+- Kubernetes  
+- Prometheus  
 
 ---
 
 ## Applications
 
-These systems are suitable for:
-
-* O-RAN and telecom network monitoring
-* Cloud infrastructure observability
-* Cybersecurity monitoring systems
-* Distributed system performance tracking
-* AI-driven network analytics
-* Research prototypes and experimental systems
+- O-RAN monitoring systems  
+- Cloud infrastructure observability  
+- Cybersecurity monitoring  
+- Distributed system analytics  
+- AI-driven network intelligence  
 
 ---
 
 ## Collaboration
 
-I am open to collaboration on:
-
-* Research projects
-* System prototypes
-* Academic-industry partnerships
-* Network security and monitoring research
-* Intelligent telemetry systems
-
-📩 Feel free to reach out for collaboration or research discussions.
+Open to research and development collaboration in:
+- Network security systems  
+- Intelligent monitoring platforms  
+- Academic research projects  
+- Prototype development
