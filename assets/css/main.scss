@@ -103,25 +103,29 @@ p {
   max-width: 75ch;
 }
 
-/* first paragraph emphasis */
-.page__content > p:first-of-type {
-  font-size: 1.05rem;
-  opacity: 0.95;
-}
-
 /* =========================================================
-   LINKS (ACADEMIC STYLE)
+   LINKS (MAIN CONTENT ONLY)
 ========================================================= */
 
-a {
+.page__content a {
   color: #0056b3;
   text-decoration: none;
   border-bottom: 1px solid rgba(0, 86, 179, 0.25);
   transition: all 0.2s ease;
 }
 
-a:hover {
+.page__content a:hover {
   border-bottom: 1px solid #0056b3;
+}
+
+/* sidebar links NOT colored (as requested earlier) */
+.author__urls a {
+  color: var(--global-text-color) !important;
+  text-decoration: none;
+}
+
+.author__urls a:hover {
+  text-decoration: underline;
 }
 
 /* =========================================================
@@ -163,7 +167,7 @@ a:hover {
 }
 
 /* =========================================================
-   SIDEBAR PROFILE (FIXED LEFT ALIGN + PROFESSOR STYLE)
+   SIDEBAR PROFILE (STANFORD STYLE)
 ========================================================= */
 
 .author__avatar {
@@ -201,15 +205,6 @@ a:hover {
   margin-top: 0.4rem;
 }
 
-/* affiliations */
-.author__location,
-.author__employer {
-  font-size: 0.9rem;
-  opacity: 0.8;
-  text-align: left !important;
-}
-
-/* social links */
 .author__urls-wrapper {
   text-align: left !important;
   margin-top: 1rem;
@@ -225,13 +220,81 @@ a:hover {
   margin-bottom: 0.4rem;
 }
 
-.author__urls a {
-  font-size: 0.95rem;
+/* =========================================================
+   PROJECT ENTRY (SAFE MD STYLE)
+========================================================= */
+
+.page__content .project-entry {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  line-height: 1.8;
+}
+
+/* project title */
+.page__content .project-entry h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 0.5rem;
+  margin-bottom: 1.2rem;
+}
+
+/* section headers */
+.page__content .project-entry h3 {
+  font-size: 1.25rem;
+  font-weight: 650;
+  margin-top: 2rem;
+  margin-bottom: 0.6rem;
+}
+
+/* text */
+.page__content .project-entry p {
+  margin-bottom: 1rem;
+}
+
+/* lists */
+.page__content .project-entry ul,
+.page__content .project-entry ol {
+  padding-left: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.page__content .project-entry li {
+  margin-bottom: 0.4rem;
+  line-height: 1.65;
+}
+
+/* links inside project */
+.page__content .project-entry a {
   color: #0056b3;
 }
 
-.author__urls a:hover {
+.page__content .project-entry a:hover {
   text-decoration: underline;
+}
+
+/* spacing between entries */
+.page__content .project-entry + .project-entry {
+  border-top: 1px solid var(--global-border-color);
+  margin-top: 2rem;
+  padding-top: 2rem;
+}
+
+/* =========================================================
+   MOBILE RESPONSIVE
+========================================================= */
+
+@media (max-width: 900px) {
+  .page__content,
+  .archive__content {
+    max-width: 100%;
+    padding: 0 1rem;
+  }
+
+  .author__avatar img {
+    width: 150px;
+    height: 150px;
+  }
 }
 
 /* =========================================================
@@ -239,7 +302,7 @@ a:hover {
 ========================================================= */
 
 @media (prefers-color-scheme: dark) {
-  a {
+  .page__content a {
     color: #7ab7ff;
   }
 
