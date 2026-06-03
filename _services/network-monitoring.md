@@ -4,63 +4,54 @@ collection: services
 permalink: /services/network-monitoring/
 layout: single
 author_profile: true
-excerpt: "Design and development of intelligent, scalable network monitoring and anomaly detection systems for modern network infrastructures."
+excerpt: "Research and development of intelligent, scalable network monitoring and anomaly detection systems for modern network infrastructures."
 ---
+I am **actively interested in research, development, and collaboration** in the area of intelligent, scalable, and real-time network monitoring systems for modern distributed and cloud-native infrastructures.
 
-# Intelligent Network Monitoring Systems
-
-I design and develop **intelligent, scalable, and real-time network monitoring systems** for modern distributed and cloud-native infrastructures. My focus is on building systems that provide deep visibility, automated anomaly detection, and actionable insights for network performance and security.
+My focus is on exploring innovative approaches that improve visibility, reliability, and security in complex network environments.
 
 ---
 
 ## Overview
 
-Modern networks require more than traditional monitoring tools. I build intelligent monitoring solutions that combine real-time data processing, streaming architectures, and analytics to detect issues early and improve reliability.
+Modern networks require more than traditional monitoring tools. I am particularly interested in research that combines real-time data processing, streaming systems, and intelligent analytics to improve system understanding and early detection of issues.
 
-These systems are especially useful in **O-RAN environments, cloud-native systems, and large-scale distributed networks**.
-
----
-
-## Core Services
-
-### Real-Time Network Monitoring
-Continuous monitoring of:
-- Network traffic
-- System metrics
-- Service performance
-
-### Anomaly Detection
-Detection of:
-- Performance degradation  
-- Security anomalies  
-- Unusual traffic patterns  
-- System failures  
-
-### Performance Analysis
-Deep analysis of network behavior to identify bottlenecks and inefficiencies.
-
-### Security Visualization
-Visual dashboards for security events and system alerts.
-
-### Metrics & Dashboards
-- Data collection pipelines  
-- Time-series storage  
-- Grafana-based dashboards  
-
-### Containerized Monitoring Systems
-Deployment using:
-- Docker  
-- Kubernetes  
-- Microservices architecture  
+This area is especially relevant in **O-RAN environments, cloud-native systems, and large-scale distributed networks**.
 
 ---
 
-## Technologies
+## Research Interests
 
+My current research interests include:
+
+### Intelligent Network Monitoring
+- Real-time system observability  
+- Scalable monitoring architectures  
+- Distributed telemetry systems  
+
+### Anomaly Detection in Networks
+- Performance degradation detection  
+- Security anomaly detection  
+- Traffic behavior analysis  
+
+### Network Performance Analysis
+- Bottleneck identification  
+- System optimization techniques  
+- Resource utilization analysis  
+
+### Security & Visualization
+- Security event analysis  
+- Network behavior visualization  
+- Interactive monitoring dashboards  
+
+---
+
+## Technologies & Tools
+
+- Python  
 - Grafana  
 - InfluxDB  
-- Kafka  
-- Python  
+- Apache Kafka  
 - Docker  
 - Kubernetes  
 - Prometheus  
@@ -69,18 +60,27 @@ Deployment using:
 
 ## Applications
 
-- O-RAN monitoring systems  
-- Cloud infrastructure observability  
-- Cybersecurity monitoring  
-- Distributed system analytics  
+This research area applies to:
+
+- O-RAN and telecom networks  
+- Cloud and edge computing systems  
+- Cybersecurity monitoring systems  
+- Distributed system observability  
 - AI-driven network intelligence  
 
 ---
 
 ## Collaboration
 
-Open to research and development collaboration in:
-- Network security systems  
-- Intelligent monitoring platforms  
-- Academic research projects  
-- Prototype development
+I am **eager to collaborate on research, prototypes, and academic projects** in this area.
+
+I welcome opportunities related to:
+- Joint research projects  
+- Academic publications  
+- Experimental system development  
+- Research-based prototypes  
+- Student and faculty collaboration  
+
+---
+
+📩 Feel free to reach out if you are working in similar areas or interested in collaboration.
