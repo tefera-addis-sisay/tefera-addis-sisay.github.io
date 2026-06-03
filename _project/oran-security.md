@@ -1,31 +1,41 @@
 ---
 layout: single
-title: "Project"
+title: O-RAN Security & Intelligent Network Monitoring
 collection: project
 permalink: /project/oran-security/
 author_profile: true
 ---
 
-<div class="project-entry" markdown="1">
+<div class="project-entry">
 
-## O-RAN Security & Intelligent Network Monitoring
+<h2>O-RAN Security & Intelligent Network Monitoring</h2>
 
+<p>
 Research on anomaly detection and performance degradation in O-RAN systems using Non-RT RIC architectures.
+</p>
 
-### 🔍 Focus Areas
-- Network intelligence and RAN optimization
-- Security analytics for O-RAN systems
-- AI-driven anomaly detection
+<h3>🔍 Focus Areas</h3>
+<ul>
+  <li>Network intelligence and RAN optimization</li>
+  <li>Security analytics for O-RAN systems</li>
+  <li>AI-driven anomaly detection</li>
+</ul>
 
-### 🛠 Technologies
-- Python
-- Machine Learning models
-- Containerized network simulation
+<h3>🛠 Technologies</h3>
+<ul>
+  <li>Python</li>
+  <li>Machine Learning models</li>
+  <li>Containerized network simulation</li>
+</ul>
 
-### 📌 Impact
+<h3>📌 Impact</h3>
+<p>
 Improves visibility and security awareness in virtualized RAN environments.
+</p>
 
-### 🔗 Related
-- [O-RAN Alliance](https://www.o-ran.org/)
+<h3>🔗 Related</h3>
+<ul>
+  <li><a href="https://www.o-ran.org/" target="_blank">O-RAN Alliance</a></li>
+</ul>
 
 </div>
