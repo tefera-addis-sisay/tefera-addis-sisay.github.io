@@ -6,9 +6,9 @@ layout: single
 author_profile: true
 excerpt: "Evaluation and assessment of undergraduate capstone projects and academic research work."
 ---
-As part of my academic service responsibilities, I evaluated **12 undergraduate final-year group projects** as a **Capstone Assessment Evaluator** for **BSc (IT/BEd) students at Bahir Dar Institute of Technology, Bahir Dar University (2026 graduating cohort)**.
+As part of my academic service responsibilities, I served as a **Capstone Assessment Evaluator** for **BSc (IT/BEd) students at Bahir Dar Institute of Technology, Bahir Dar University (2026 graduating cohort)**, evaluating **12 undergraduate final-year group projects**.
 
-The evaluation covered both **progress reviews** and **final project assessments**, ensuring academic rigor, technical quality, and alignment with institutional learning outcomes.
+This role involved both **progress reviews** and **final project assessments**, with a strong emphasis on academic rigor, technical quality, and alignment with institutional learning outcomes.
 
 ---
 
@@ -18,7 +18,7 @@ My responsibilities included:
 
 - Reviewing project proposals, system architecture, and initial design decisions  
 - Assessing technical feasibility, innovation, and problem formulation  
-- Conducting mid-term progress evaluations with structured technical feedback  
+- Conducting structured mid-term progress evaluations with technical feedback  
 - Evaluating final deliverables, including implementation, documentation, and system demonstrations  
 - Applying standardized academic rubrics to ensure fairness and consistency across all groups  
 - Providing constructive written and oral feedback to support student development  
@@ -55,6 +55,10 @@ The assessment process emphasized:
 
 ## Impact
 
-This role strengthened my expertise in academic evaluation, student mentorship, and quality assurance in project-based learning environments while contributing to the successful completion of undergraduate capstone projects at the institutional level.
+This role strengthened my expertise in:
+- Academic evaluation and quality assurance  
+- Student mentorship in project-based learning  
+- Multidisciplinary technical assessment  
+- Evidence-based feedback and academic supervision  
 
-The experience also enhanced my ability to provide constructive feedback, assess multidisciplinary projects, and support student success through evidence-based evaluation practices.
+It also contributed to the successful completion of undergraduate capstone projects at institutional level while enhancing my ability to evaluate complex systems across multiple domains.
