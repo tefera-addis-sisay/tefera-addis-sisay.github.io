@@ -3,7 +3,7 @@
 
 /*
  * Jekyll / Minimal Mistakes core imports
- * (DO NOT REMOVE — REQUIRED FOR BUILD)
+ * (DO NOT REMOVE)
  */
 
 @import
@@ -42,15 +42,17 @@
 
 
 /* =========================================================
-   STANFORD CS HOMEPAGE LAYOUT STYLE
+   STANFORD / MIT ACADEMIC STYLE (UNIFIED SYSTEM)
 ========================================================= */
 
-/* -------------------------
-   MAIN TWO-COLUMN LAYOUT
--------------------------- */
+/* =========================================================
+   LAYOUT RULES (SAFE + CONSISTENT)
+========================================================= */
 
+/* Apply grid ONLY where sidebar exists */
 @media (min-width: 900px) {
-  .page {
+  body.layout--single .page,
+  body.layout--archive .page {
     display: grid;
     grid-template-columns: 280px 1fr;
     grid-gap: 3rem;
@@ -58,7 +60,12 @@
   }
 }
 
-/* make sidebar sticky like Stanford */
+/* fallback */
+.page {
+  display: block;
+}
+
+/* sticky sidebar */
 @media (min-width: 900px) {
   .sidebar {
     position: sticky;
@@ -66,9 +73,9 @@
   }
 }
 
-/* -------------------------
-   PROFILE (LEFT COLUMN)
--------------------------- */
+/* =========================================================
+   PROFILE SECTION (STANFORD STYLE)
+========================================================= */
 
 .author__avatar {
   text-align: center;
@@ -82,45 +89,41 @@
   display: block;
   margin: 0 auto;
   border: 3px solid var(--global-border-color);
+  transition: 0.25s ease;
 }
 
-.author__name {
-  text-align: center;
-  font-size: 1.3rem;
-  font-weight: 700;
-  margin-top: 1rem;
+.author__avatar img:hover {
+  transform: scale(1.03);
 }
 
+.author__name,
 .author__bio {
   text-align: center;
-  font-size: 0.95rem;
-  opacity: 0.85;
 }
 
 .author__urls-wrapper {
   text-align: center;
-  margin-top: 1rem;
 }
 
 .author__urls {
   display: inline-block;
   text-align: left;
-  font-size: 0.95rem;
 }
 
-/* -------------------------
-   MAIN CONTENT (RIGHT COLUMN)
--------------------------- */
+/* =========================================================
+   MAIN CONTENT
+========================================================= */
 
 .page__content {
   max-width: 900px;
+  margin: 0 auto;
 }
 
 .page__content h1 {
   font-size: 2.2rem;
   font-weight: 700;
-  margin-bottom: 1.2rem;
   border-bottom: none;
+  margin-bottom: 1.2rem;
 }
 
 .page__content h2 {
@@ -135,23 +138,24 @@
   margin-bottom: 1rem;
 }
 
-/* -------------------------
-   NAVIGATION
--------------------------- */
+/* =========================================================
+   NAVIGATION (CLEAN ACADEMIC STYLE)
+========================================================= */
 
 .greedy-nav a {
   font-weight: 500;
   padding: 0.4rem 0.7rem;
   border-radius: 4px;
+  transition: 0.2s ease;
 }
 
 .greedy-nav a:hover {
   background: rgba(0, 0, 0, 0.05);
 }
 
-/* -------------------------
-   LINKS
--------------------------- */
+/* =========================================================
+   LINKS (STANFORD STYLE BLUE)
+========================================================= */
 
 a {
   color: #0056b3;
@@ -161,20 +165,21 @@ a:hover {
   text-decoration: underline;
 }
 
-/* -------------------------
-   CLEAN UI (NO CARD SHADOWS)
--------------------------- */
+/* =========================================================
+   UI CLEANUP (REMOVE CARD FEEL)
+========================================================= */
 
 .btn,
 .notice,
-.archive__item {
+.archive__item,
+.project-card {
   box-shadow: none !important;
   border-radius: 0 !important;
 }
 
-/* -------------------------
-   LIST STYLE
--------------------------- */
+/* =========================================================
+   LIST STYLE (ACADEMIC CLEAN)
+========================================================= */
 
 .page__content ul {
   padding-left: 1.2rem;
@@ -184,23 +189,8 @@ a:hover {
   margin-bottom: 0.4rem;
 }
 
-/* -------------------------
-   MOBILE RESPONSIVE
--------------------------- */
-
-@media (max-width: 900px) {
-  .page {
-    display: block;
-  }
-
-  .author__avatar img {
-    width: 150px;
-    height: 150px;
-  }
-}
-
 /* =========================================================
-   PROJECTS (STANFORD-LAB STYLE - SAFE ADDITION)
+   PROJECTS (STANFORD LAB STYLE)
 ========================================================= */
 
 .project-entry {
@@ -212,7 +202,6 @@ a:hover {
   font-size: 1.6rem;
   font-weight: 700;
   margin-top: 1.2rem;
-  margin-bottom: 0.8rem;
 }
 
 .project-entry h3 {
@@ -223,7 +212,6 @@ a:hover {
 
 .project-entry ul {
   padding-left: 1.2rem;
-  margin-bottom: 1rem;
 }
 
 .project-entry li {
@@ -248,4 +236,20 @@ a:hover {
   border-top: 1px solid var(--global-border-color);
   margin-top: 2rem;
   padding-top: 2rem;
+}
+
+/* =========================================================
+   MOBILE RESPONSIVE
+========================================================= */
+
+@media (max-width: 900px) {
+  body.layout--single .page,
+  body.layout--archive .page {
+    display: block;
+  }
+
+  .author__avatar img {
+    width: 150px;
+    height: 150px;
+  }
 }
