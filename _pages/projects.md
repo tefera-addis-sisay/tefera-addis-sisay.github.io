@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Projects"
-permalink: /project/
+permalink: /projects/
 author_profile: true
 ---
 
@@ -13,14 +13,22 @@ Below are my research and development projects in networking, security, and inte
 
 <div class="projects-grid">
 
-{% for post in site.project reversed %}
+{% for post in site.projects reversed %}
+
   <div class="project-card">
-    <h3>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+
+    <h3 class="project-title">
+      <a href="{{ post.url | relative_url }}">
+        {{ post.title }}
+      </a>
     </h3>
 
-    <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
+    <p class="project-excerpt">
+      {{ post.excerpt | strip_html | truncate: 160 }}
+    </p>
+
   </div>
+
 {% endfor %}
 
 </div>
