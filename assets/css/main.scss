@@ -128,8 +128,7 @@ a:hover {
 
 .btn,
 .notice,
-.archive__item,
-.project-card {
+.archive__item {
   box-shadow: none !important;
   border-radius: 0 !important;
 }
@@ -159,4 +158,61 @@ a:hover {
     width: 150px;
     height: 150px;
   }
+}
+
+/* =========================================================
+   PROJECTS (STANFORD-LAB STYLE - SAFE ADDITION)
+========================================================= */
+
+/* project page wrapper */
+.project-entry {
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+/* headings inside project pages */
+.project-entry h2 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-top: 1.2rem;
+  margin-bottom: 0.8rem;
+}
+
+.project-entry h3 {
+  font-size: 1.2rem;
+  font-weight: 650;
+  margin-top: 1.2rem;
+}
+
+/* clean academic lists */
+.project-entry ul {
+  padding-left: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.project-entry li {
+  margin-bottom: 0.4rem;
+  line-height: 1.6;
+}
+
+/* links inside projects */
+.project-entry a {
+  color: #0056b3;
+}
+
+.project-entry a:hover {
+  text-decoration: underline;
+}
+
+/* spacing */
+.project-entry p {
+  line-height: 1.75;
+  margin-bottom: 1rem;
+}
+
+/* divider between project pages (if multiple) */
+.project-entry + .project-entry {
+  border-top: 1px solid var(--global-border-color);
+  margin-top: 2rem;
+  padding-top: 2rem;
 }
