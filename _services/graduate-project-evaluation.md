@@ -6,9 +6,6 @@ layout: single
 author_profile: true
 excerpt: "Evaluation and assessment of undergraduate capstone projects and academic research work."
 ---
-
-# Graduate Student Project Evaluation
-
 As part of my academic service responsibilities, I evaluated **12 undergraduate final-year group projects** as a **Capstone Assessment Evaluator** for **BSc (IT/BEd) students at Bahir Dar Institute of Technology, Bahir Dar University (2026 graduating cohort)**.
 
 The evaluation covered both **progress reviews** and **final project assessments**, ensuring academic rigor, technical quality, and alignment with institutional learning outcomes.
