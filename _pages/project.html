@@ -7,16 +7,6 @@ author_profile: true
 
 {% include base_path %}
 
-<section class="page__content">
-
-  <h2>Selected Projects</h2>
-
-  <p>
-    Below are my research and development projects in networking, security, and intelligent systems.
-  </p>
-
-  {% for post in site.projects reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-
-</section>
+{% for post in site.services reversed %}
+  {% include archive-single.html %}
+{% endfor %}
