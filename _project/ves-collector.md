@@ -1,31 +1,41 @@
 ---
-title: "VES Collector for Network Telemetry"
+title: VES Collector for Network Telemetry
 collection: project
 permalink: /project/ves-collector/
 author_profile: true
 layout: single
 ---
 
-<div class="project-entry" markdown="1">
+<div class="project-entry">
 
-## VES Collector for Network Telemetry
+<h2>VES Collector for Network Telemetry</h2>
 
+<p>
 Design and implementation of a VES (Virtualized Event Streaming) Collector for real-time RAN event ingestion and processing.
+</p>
 
-### 🔍 Focus Areas
-- Real-time event streaming pipelines
-- Network telemetry processing
-- Event-driven security analytics
+<h3>🔍 Focus Areas</h3>
+<ul>
+  <li>Real-time event streaming pipelines</li>
+  <li>Network telemetry processing</li>
+  <li>Event-driven security analytics</li>
+</ul>
 
-### 🛠 Technologies
-- Python
-- Kafka
-- Monitoring systems
+<h3>🛠 Technologies</h3>
+<ul>
+  <li>Python</li>
+  <li>Kafka</li>
+  <li>Monitoring systems</li>
+</ul>
 
-### 📌 Impact
+<h3>📌 Impact</h3>
+<p>
 Enables real-time visibility into RAN events and supports anomaly detection pipelines.
+</p>
 
-### 🔗 Related
-- [ONAP VES Documentation](https://docs.onap.org/)
+<h3>🔗 Related</h3>
+<ul>
+  <li><a href="https://docs.onap.org/" target="_blank">ONAP VES Documentation</a></li>
+</ul>
 
 </div>
