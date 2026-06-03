@@ -6,7 +6,7 @@ permalink: /project/network-monitoring/
 author_profile: true
 ---
 
-<div class="project-entry">
+<div class="project-entry" markdown="1">
 
 ## Network Traffic Monitoring & Attack Detection
 
