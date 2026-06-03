@@ -42,18 +42,19 @@
 
 
 /* =========================================================
-   GLOBAL ACADEMIC STYLE (STANFORD / MIT INSPIRED)
+   BASE TYPOGRAPHY (ACADEMIC CORE)
 ========================================================= */
 
-/* Base typography */
 body {
   font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+  font-size: 16.5px;
   line-height: 1.75;
+  letter-spacing: 0.1px;
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
 }
 
-/* Center main content safely */
+/* content width */
 .page__content,
 .archive__content {
   max-width: 850px;
@@ -61,43 +62,86 @@ body {
   margin-right: auto;
 }
 
-/* Headings */
+/* =========================================================
+   TYPOGRAPHY HIERARCHY (STANFORD / MIT STYLE)
+========================================================= */
+
 h1 {
-  font-size: 2.2rem;
-  font-weight: 700;
+  font-size: 2.35rem;
+  font-weight: 750;
+  line-height: 1.2;
+  letter-spacing: -0.6px;
+  margin-bottom: 1.2rem;
   border-bottom: none;
 }
 
 h2 {
-  font-size: 1.5rem;
-  font-weight: 650;
+  font-size: 1.55rem;
+  font-weight: 700;
+  line-height: 1.35;
+  margin-top: 2.2rem;
+  margin-bottom: 0.8rem;
+  letter-spacing: -0.3px;
 }
 
 h3 {
   font-size: 1.15rem;
+  font-weight: 650;
+  margin-top: 1.4rem;
+  margin-bottom: 0.6rem;
+}
+
+h4 {
+  font-size: 1.05rem;
   font-weight: 600;
 }
 
-/* Links */
+/* paragraphs */
+p {
+  margin-bottom: 1rem;
+  line-height: 1.75;
+  max-width: 75ch;
+}
+
+/* first paragraph emphasis */
+.page__content > p:first-of-type {
+  font-size: 1.05rem;
+  opacity: 0.95;
+}
+
+/* =========================================================
+   LINKS (ACADEMIC STYLE)
+========================================================= */
+
 a {
   color: #0056b3;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0, 86, 179, 0.25);
+  transition: all 0.2s ease;
 }
 
 a:hover {
-  text-decoration: underline;
+  border-bottom: 1px solid #0056b3;
 }
 
-/* Lists */
+/* =========================================================
+   LISTS
+========================================================= */
+
 .page__content ul,
 .page__content ol {
-  padding-left: 1.3rem;
+  padding-left: 1.4rem;
 }
 
 .page__content li {
   margin-bottom: 0.4rem;
+  line-height: 1.65;
 }
 
-/* Buttons + notices cleanup */
+/* =========================================================
+   BUTTON + UI CLEANUP
+========================================================= */
+
 .btn,
 .notice,
 .archive__item {
@@ -105,7 +149,10 @@ a:hover {
   border-radius: 0 !important;
 }
 
-/* Navigation */
+/* =========================================================
+   NAVIGATION (CLEAN ACADEMIC)
+========================================================= */
+
 .greedy-nav a {
   font-weight: 500;
   padding: 0.4rem 0.7rem;
@@ -116,17 +163,22 @@ a:hover {
 }
 
 /* =========================================================
-   PROFILE (CIRCULAR IMAGE FIX)
+   SIDEBAR PROFILE (FIXED LEFT ALIGN + PROFESSOR STYLE)
 ========================================================= */
 
+.author__avatar {
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
 .author__avatar img {
-  width: 180px;
-  height: 180px;
+  width: 170px;
+  height: 170px;
   object-fit: cover;
   border-radius: 50%;
   border: 3px solid var(--global-border-color);
   display: block;
-  margin: 0 auto;
+  margin: 0;
   transition: 0.25s ease;
 }
 
@@ -134,15 +186,56 @@ a:hover {
   transform: scale(1.03);
 }
 
-/* Center profile text */
-.author__name,
-.author__bio,
+.author__name {
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-align: left !important;
+  margin-top: 0.8rem;
+}
+
+.author__bio {
+  font-size: 0.95rem;
+  opacity: 0.85;
+  text-align: left !important;
+  line-height: 1.5;
+  margin-top: 0.4rem;
+}
+
+/* affiliations */
+.author__location,
+.author__employer {
+  font-size: 0.9rem;
+  opacity: 0.8;
+  text-align: left !important;
+}
+
+/* social links */
 .author__urls-wrapper {
-  text-align: center;
+  text-align: left !important;
+  margin-top: 1rem;
+}
+
+.author__urls {
+  display: block;
+  text-align: left !important;
+  padding-left: 0;
+}
+
+.author__urls li {
+  margin-bottom: 0.4rem;
+}
+
+.author__urls a {
+  font-size: 0.95rem;
+  color: #0056b3;
+}
+
+.author__urls a:hover {
+  text-decoration: underline;
 }
 
 /* =========================================================
-   DARK MODE SAFE LINKS
+   DARK MODE SAFE
 ========================================================= */
 
 @media (prefers-color-scheme: dark) {
