@@ -5,7 +5,9 @@ collection: project
 permalink: /project/network-monitoring/
 author_profile: true
 ---
+
 <div class="project-entry">
+
 ## Network Traffic Monitoring & Attack Detection
 
 Development of a system for packet capture, traffic analysis, and attack detection in O-RAN environments.
@@ -25,6 +27,5 @@ Supports security evaluation of virtualized network infrastructures.
 
 ### 🔗 Tool
 - [Wireshark](https://www.wireshark.org/)
-</div>
 
 </div>
