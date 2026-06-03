@@ -1,3 +1,46 @@
+---
+---
+
+/*
+ * Jekyll / Minimal Mistakes core imports
+ * (DO NOT REMOVE — REQUIRED FOR BUILD)
+ */
+
+@import
+    "vendor/breakpoint/breakpoint",
+
+    "themes",
+    "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
+    "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
+
+    "include/mixins",
+    "vendor/susy/susy",
+
+    "layout/reset",
+    "layout/base",
+
+    "include/utilities",
+    "layout/tables",
+    "layout/buttons",
+    "layout/notices",
+    "layout/masthead",
+    "layout/navigation",
+    "layout/footer",
+    "syntax",
+
+    "layout/forms",
+
+    "layout/page",
+    "layout/archive",
+    "layout/sidebar",
+    "layout/json_cv",
+
+    "vendor/font-awesome/fontawesome",
+    "vendor/font-awesome/solid",
+    "vendor/font-awesome/brands"
+;
+
+
 /* =========================================================
    STANFORD CS HOMEPAGE LAYOUT STYLE
 ========================================================= */
@@ -41,7 +84,6 @@
   border: 3px solid var(--global-border-color);
 }
 
-/* name styling like Stanford */
 .author__name {
   text-align: center;
   font-size: 1.3rem;
@@ -55,7 +97,6 @@
   opacity: 0.85;
 }
 
-/* links block */
 .author__urls-wrapper {
   text-align: center;
   margin-top: 1rem;
@@ -75,7 +116,6 @@
   max-width: 900px;
 }
 
-/* section spacing like Stanford */
 .page__content h1 {
   font-size: 2.2rem;
   font-weight: 700;
@@ -90,14 +130,13 @@
   margin-bottom: 0.8rem;
 }
 
-/* paragraphs cleaner academic spacing */
 .page__content p {
   line-height: 1.75;
   margin-bottom: 1rem;
 }
 
 /* -------------------------
-   NAVIGATION (MINIMAL STANFORD STYLE)
+   NAVIGATION
 -------------------------- */
 
 .greedy-nav a {
@@ -111,7 +150,7 @@
 }
 
 /* -------------------------
-   LINKS (ACADEMIC STYLE)
+   LINKS
 -------------------------- */
 
 a {
@@ -123,7 +162,7 @@ a:hover {
 }
 
 /* -------------------------
-   REMOVE MODERN CARD FEEL
+   CLEAN UI (NO CARD SHADOWS)
 -------------------------- */
 
 .btn,
@@ -134,7 +173,7 @@ a:hover {
 }
 
 /* -------------------------
-   PUBLICATION / LIST STYLE (STANFORD FEEL)
+   LIST STYLE
 -------------------------- */
 
 .page__content ul {
@@ -164,13 +203,11 @@ a:hover {
    PROJECTS (STANFORD-LAB STYLE - SAFE ADDITION)
 ========================================================= */
 
-/* project page wrapper */
 .project-entry {
   max-width: 850px;
   margin: 0 auto;
 }
 
-/* headings inside project pages */
 .project-entry h2 {
   font-size: 1.6rem;
   font-weight: 700;
@@ -184,7 +221,6 @@ a:hover {
   margin-top: 1.2rem;
 }
 
-/* clean academic lists */
 .project-entry ul {
   padding-left: 1.2rem;
   margin-bottom: 1rem;
@@ -195,7 +231,6 @@ a:hover {
   line-height: 1.6;
 }
 
-/* links inside projects */
 .project-entry a {
   color: #0056b3;
 }
@@ -204,13 +239,11 @@ a:hover {
   text-decoration: underline;
 }
 
-/* spacing */
 .project-entry p {
   line-height: 1.75;
   margin-bottom: 1rem;
 }
 
-/* divider between project pages (if multiple) */
 .project-entry + .project-entry {
   border-top: 1px solid var(--global-border-color);
   margin-top: 2rem;
