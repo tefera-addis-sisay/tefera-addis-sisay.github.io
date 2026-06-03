@@ -190,7 +190,7 @@ a:hover {
 }
 
 /* =========================================================
-   PROJECTS PAGE (SCOPED ONLY)
+   PROJECTS PAGE (UNCHANGED DESIGN)
 ========================================================= */
 
 .projects-page .lab-header {
@@ -303,41 +303,18 @@ a:hover {
 }
 
 /* =========================================================
-   FIX: MINIMAL MISTAKES CONFLICT RESOLUTION
+   SAFE FIX (NO LAYOUT BREAKING)
 ========================================================= */
 
-/* remove layout constraints inside projects page */
+/* Only prevents inheritance issues without breaking layout */
 .projects-page {
   width: 100%;
 }
 
-/* kill theme max-width/padding inside projects page */
-.projects-page .page__content,
-.projects-page .page__inner-wrap {
-  max-width: none !important;
-  padding: 0 !important;
-  transform: none !important;
-}
-
-/* enforce clean grid behavior */
-.projects-page .projects-grid {
-  width: 100%;
-}
-
-/* normalize spacing conflicts */
-.projects-page h1,
-.projects-page h2,
-.projects-page h3,
-.projects-page p {
-  margin-top: 0;
-}
-
-/* improve readability */
-.projects-page .project-excerpt {
-  line-height: 1.6;
-}
-
-/* ensure cards don't inherit weird margins */
 .projects-page .project-card {
   margin: 0 !important;
+}
+
+.projects-page .project-excerpt {
+  line-height: 1.6;
 }
