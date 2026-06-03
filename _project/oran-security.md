@@ -5,8 +5,6 @@ collection: project
 permalink: /project/oran-security/
 author_profile: true
 ---
-<div class="projects-page">
-
 ## O-RAN Security & Intelligent Network Monitoring
 
 Research on anomaly detection and performance degradation in O-RAN systems using Non-RT RIC architectures.
