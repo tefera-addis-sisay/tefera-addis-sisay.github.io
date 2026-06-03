@@ -1,12 +1,11 @@
 ---
-
 title: "Graduate Student Project Evaluation"
 collection: services
 permalink: /services/graduate-project-evaluation/
 layout: single
 author_profile: true
 excerpt: "Evaluation and assessment of undergraduate capstone projects and academic research work."
----------------------------------------------------------------------------------------------------
+---
 
 # Graduate Student Project Evaluation
 
@@ -20,13 +19,13 @@ The evaluation covered both **progress reviews** and **final project assessments
 
 My responsibilities included:
 
-* Reviewing project proposals, system architecture, and initial design decisions
-* Assessing technical feasibility, innovation, and problem formulation
-* Conducting mid-term progress evaluations with structured technical feedback
-* Evaluating final deliverables, including implementation, documentation, and system demonstrations
-* Applying standardized academic rubrics to ensure fairness and consistency across all groups
-* Providing constructive written and oral feedback to support student development
-* Monitoring project progression across multiple development milestones
+- Reviewing project proposals, system architecture, and initial design decisions  
+- Assessing technical feasibility, innovation, and problem formulation  
+- Conducting mid-term progress evaluations with structured technical feedback  
+- Evaluating final deliverables, including implementation, documentation, and system demonstrations  
+- Applying standardized academic rubrics to ensure fairness and consistency across all groups  
+- Providing constructive written and oral feedback to support student development  
+- Monitoring project progression across multiple development milestones  
 
 ---
 
@@ -34,13 +33,13 @@ My responsibilities included:
 
 The evaluated projects spanned diverse application areas, including:
 
-* Software engineering systems
-* Web and mobile applications
-* Networking and distributed systems
-* Information systems
-* Data-driven platforms
-* Machine learning and artificial intelligence systems
-* Cybersecurity applications
+- Software engineering systems  
+- Web and mobile applications  
+- Networking and distributed systems  
+- Information systems  
+- Data-driven platforms  
+- Machine learning and artificial intelligence systems  
+- Cybersecurity applications  
 
 ---
 
@@ -48,12 +47,12 @@ The evaluated projects spanned diverse application areas, including:
 
 The assessment process emphasized:
 
-* Technical quality and implementation effectiveness
-* Research relevance and innovation
-* System design and architectural soundness
-* Documentation quality and academic writing standards
-* Project presentation and communication skills
-* Achievement of stated project objectives
+- Technical quality and implementation effectiveness  
+- Research relevance and innovation  
+- System design and architectural soundness  
+- Documentation quality and academic writing standards  
+- Project presentation and communication skills  
+- Achievement of stated project objectives  
 
 ---
 
