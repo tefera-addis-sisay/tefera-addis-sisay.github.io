@@ -5,9 +5,6 @@ collection: project
 permalink: /project/network-monitoring/
 author_profile: true
 ---
-
-<div class="projects-page">
-
 ## Network Traffic Monitoring & Attack Detection
 
 Development of a system for packet capture, traffic analysis, and attack detection in O-RAN environments.
