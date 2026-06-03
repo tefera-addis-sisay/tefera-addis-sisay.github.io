@@ -5,9 +5,6 @@ permalink: /services/oran-security-consulting/
 layout: single
 author_profile: true
 ---
-
-# O-RAN Security Consulting
-
 Providing security-focused research, testing, and analysis for Open RAN and intelligent networking environments.
 
 ## Services Include
