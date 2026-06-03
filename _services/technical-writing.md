@@ -6,9 +6,6 @@ layout: single
 author_profile: true
 excerpt: "Professional support for research writing, thesis editing, academic formatting, and technical documentation."
 ---
-
-# Technical Writing & Academic Editing
-
 I help students, researchers, and professionals produce **high-quality academic and technical documents** that meet international standards of clarity, structure, and formatting.
 
 My focus is on improving readability, technical accuracy, and publication readiness.
