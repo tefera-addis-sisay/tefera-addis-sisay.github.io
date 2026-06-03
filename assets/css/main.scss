@@ -41,65 +41,63 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
 /* =========================================================
-   MIT / STANFORD ACADEMIC STYLE LAYER
+   MIT / STANFORD ACADEMIC STYLE (DARK MODE SAFE)
 ========================================================= */
 
 /* -------------------------
-   GLOBAL ACADEMIC CLEAN LOOK
+   GLOBAL STYLE
 -------------------------- */
 
 body {
-  background-color: #ffffff;
-  color: #1a1a1a;
   font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   line-height: 1.75;
+  background-color: var(--global-bg-color);
+  color: var(--global-text-color);
 }
 
-/* constrain reading width like Stanford */
+/* Stanford-style readable content width */
 .page__content,
 .archive__content {
   max-width: 820px;
   margin: 0 auto;
 }
 
-/* softer overall layout spacing */
-.page__content {
-  padding-top: 2rem;
-  padding-bottom: 3rem;
-}
-
 /* -------------------------
-   TYPOGRAPHY (VERY IMPORTANT FOR MIT LOOK)
+   TYPOGRAPHY
 -------------------------- */
 
 h1 {
   font-size: 2.2rem;
   font-weight: 700;
   letter-spacing: -0.02em;
-  color: #111;
   border-bottom: none;
+  color: var(--global-text-color);
 }
 
 h2 {
   font-size: 1.5rem;
   font-weight: 650;
-  color: #111;
+  color: var(--global-text-color);
   margin-top: 2rem;
 }
 
 h3 {
   font-size: 1.15rem;
   font-weight: 600;
-  color: #222;
+  color: var(--global-text-color);
 }
 
 p {
-  color: #333;
+  color: inherit;
 }
 
-/* links: subtle academic blue */
+/* -------------------------
+   LINKS
+-------------------------- */
+
 a {
   color: #0056b3;
   text-decoration: none;
@@ -110,45 +108,41 @@ a:hover {
 }
 
 /* -------------------------
-   NAVIGATION (STANFORD STYLE MINIMAL)
+   NAVIGATION
 -------------------------- */
 
 .greedy-nav a {
   font-weight: 500;
   font-size: 0.95rem;
-  color: #222;
+  color: var(--global-text-color);
   padding: 0.3rem 0.6rem;
   border-radius: 4px;
   transition: background 0.2s ease;
 }
 
 .greedy-nav a:hover {
-  background: rgba(0,0,0,0.05);
+  background: rgba(0, 0, 0, 0.05);
   transform: none;
 }
 
-/* active link subtle */
 .greedy-nav .active a {
   color: #0056b3;
 }
 
-/* remove flashy effects */
 .greedy-nav a::after {
   display: none;
 }
 
 /* -------------------------
-   PROFILE IMAGE (ACADEMIC STYLE)
+   PROFILE IMAGE
 -------------------------- */
 
 .author__avatar img {
-  border-radius: 4px;
-  border: 1px solid #ddd;
+  border-radius: 6px;
+  border: 1px solid var(--global-border-color);
   box-shadow: none;
   padding: 0;
-  width: 140px;
-  height: 140px;
-  object-fit: cover;
+  transition: all 0.2s ease;
 }
 
 .author__avatar img:hover {
@@ -156,46 +150,16 @@ a:hover {
 }
 
 /* -------------------------
-   LAYOUT SIMPLICITY
--------------------------- */
-
-/* reduce "card feel" everywhere */
-.page,
-.archive {
-  background: transparent;
-}
-
-/* remove heavy shadows from theme elements */
-.nav-card,
-.project-card,
-.notice,
-.btn {
-  box-shadow: none !important;
-}
-
-/* buttons become academic links */
-.btn {
-  background: none !important;
-  color: #0056b3 !important;
-  padding: 0;
-  border: none;
-  font-weight: 500;
-}
-
-.btn:hover {
-  text-decoration: underline;
-}
-
-/* -------------------------
-   CONTENT SPACING (STANFORD STYLE)
+   CONTENT SPACING
 -------------------------- */
 
 .page__content p {
   margin-bottom: 1.1rem;
 }
 
-.page__content ul {
-  margin-left: 1.2rem;
+.page__content ul,
+.page__content ol {
+  margin-left: 1.4rem;
 }
 
 .page__content li {
@@ -203,15 +167,56 @@ a:hover {
 }
 
 /* -------------------------
-   REMOVE VISUAL NOISE
+   HORIZONTAL RULES
 -------------------------- */
 
 hr {
-  border: none;
-  border-top: 1px solid #eee;
+  border: 0;
+  border-top: 1px solid var(--global-border-color);
 }
 
-/* reduce heavy borders */
-.page__content h1 {
-  margin-bottom: 1.5rem;
+/* -------------------------
+   REMOVE EXCESSIVE SHADOWS
+-------------------------- */
+
+.btn,
+.notice,
+.archive__item,
+.page {
+  box-shadow: none;
+}
+
+/* -------------------------
+   CLEAN BUTTONS
+-------------------------- */
+
+.btn {
+  background: transparent;
+  border: none;
+  color: #0056b3;
+  padding: 0;
+}
+
+.btn:hover {
+  text-decoration: underline;
+}
+
+/* -------------------------
+   MOBILE
+-------------------------- */
+
+@media (max-width: 768px) {
+
+  .page__content,
+  .archive__content {
+    max-width: 100%;
+  }
+
+  h1 {
+    font-size: 1.9rem;
+  }
+
+  h2 {
+    font-size: 1.35rem;
+  }
 }
