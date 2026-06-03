@@ -40,20 +40,19 @@
     "vendor/font-awesome/brands"
 ;
 
-
 /* =========================================================
-   ACADEMIC STANFORD/MIT STYLE BASE
+   GLOBAL ACADEMIC STYLE (STANFORD / MIT INSPIRED)
 ========================================================= */
 
-/* GLOBAL TYPOGRAPHY */
+/* Base typography */
 body {
   font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
   line-height: 1.75;
   color: var(--global-text-color);
-  background: var(--global-bg-color);
+  background-color: var(--global-bg-color);
 }
 
-/* CONTENT WIDTH (SAFE) */
+/* Center main content safely (NO layout break) */
 .page__content,
 .archive__content {
   max-width: 850px;
@@ -61,7 +60,7 @@ body {
   margin-right: auto;
 }
 
-/* HEADINGS */
+/* Headings */
 h1 {
   font-size: 2.2rem;
   font-weight: 700;
@@ -78,7 +77,7 @@ h3 {
   font-weight: 600;
 }
 
-/* LINKS */
+/* Links (Stanford blue) */
 a {
   color: #0056b3;
 }
@@ -87,7 +86,7 @@ a:hover {
   text-decoration: underline;
 }
 
-/* LISTS */
+/* Lists */
 .page__content ul,
 .page__content ol {
   padding-left: 1.3rem;
@@ -97,7 +96,7 @@ a:hover {
   margin-bottom: 0.4rem;
 }
 
-/* BUTTON CLEANUP */
+/* Buttons + notices cleanup */
 .btn,
 .notice,
 .archive__item {
@@ -105,7 +104,7 @@ a:hover {
   border-radius: 0 !important;
 }
 
-/* NAVIGATION CLEAN */
+/* Navigation clean */
 .greedy-nav a {
   font-weight: 500;
   padding: 0.4rem 0.7rem;
@@ -115,7 +114,10 @@ a:hover {
   background: rgba(0,0,0,0.05);
 }
 
-/* PROFILE IMAGE (CIRCLE FIXED) */
+/* =========================================================
+   PROFILE (CIRCULAR IMAGE FIX)
+========================================================= */
+
 .author__avatar img {
   width: 180px;
   height: 180px;
@@ -131,55 +133,67 @@ a:hover {
   transform: scale(1.03);
 }
 
+/* Center profile text */
+.author__name,
+.author__bio,
+.author__urls-wrapper {
+  text-align: center;
+}
+
 /* =========================================================
-   PROJECT ENTRY (FIXED + FULLY SCOPED)
+   PROJECT ENTRY (SAFE + CLEAN + NO CONFLICT)
 ========================================================= */
 
 .page__content .project-entry {
   max-width: 850px;
   margin: 0 auto;
-  width: 100%;
-  line-height: 1.75;
+  padding: 0 1rem;
+  line-height: 1.8;
 }
 
-/* headings inside project */
+/* Title inside project page */
 .page__content .project-entry h2 {
-  font-size: 1.6rem;
+  font-size: 2rem;
   font-weight: 700;
-  margin-top: 1.2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1.2rem;
 }
 
+/* Section headers */
 .page__content .project-entry h3 {
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   font-weight: 650;
-  margin-top: 1.2rem;
+  margin-top: 2rem;
+  margin-bottom: 0.6rem;
 }
 
-/* text spacing */
+/* paragraphs */
 .page__content .project-entry p {
   margin-bottom: 1rem;
 }
 
 /* lists */
-.page__content .project-entry ul {
+.page__content .project-entry ul,
+.page__content .project-entry ol {
   padding-left: 1.4rem;
+  margin-bottom: 1rem;
 }
 
 .page__content .project-entry li {
   margin-bottom: 0.4rem;
-  line-height: 1.6;
+  line-height: 1.65;
 }
 
-/* links inside projects */
+/* links inside project */
 .page__content .project-entry a {
-  color: #0056b3 !important;
+  color: #0056b3;
 }
 
 .page__content .project-entry a:hover {
   text-decoration: underline;
 }
 
-/* divider between projects */
+/* spacing between multiple entries (future-proof) */
 .page__content .project-entry + .project-entry {
   border-top: 1px solid var(--global-border-color);
   margin-top: 2rem;
@@ -187,18 +201,15 @@ a:hover {
 }
 
 /* =========================================================
-   MOBILE RESPONSIVE
+   DARK MODE (SAFE - USES VARIABLES ONLY)
 ========================================================= */
 
-@media (max-width: 900px) {
-  .page__content,
-  .archive__content {
-    max-width: 100%;
-    padding: 0 1rem;
+@media (prefers-color-scheme: dark) {
+  a {
+    color: #7ab7ff;
   }
 
-  .author__avatar img {
-    width: 150px;
-    height: 150px;
+  .greedy-nav a:hover {
+    background: rgba(255,255,255,0.05);
   }
 }
