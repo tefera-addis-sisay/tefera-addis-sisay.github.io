@@ -5,6 +5,7 @@ permalink: /project/ves-collector/
 author_profile: true
 layout: single
 ---
+<div class="projects-page">
 
 ## VES Collector for Network Telemetry
 
