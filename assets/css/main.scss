@@ -42,121 +42,43 @@
 
 
 /* =========================================================
-   STANFORD / MIT ACADEMIC STYLE (UNIFIED SYSTEM)
+   ACADEMIC STANFORD/MIT STYLE BASE
 ========================================================= */
 
-/* =========================================================
-   LAYOUT RULES (SAFE + CONSISTENT)
-========================================================= */
-
-/* Apply grid ONLY where sidebar exists */
-@media (min-width: 900px) {
-  body.layout--single .page,
-  body.layout--archive .page {
-    display: grid;
-    grid-template-columns: 280px 1fr;
-    grid-gap: 3rem;
-    align-items: start;
-  }
+/* GLOBAL TYPOGRAPHY */
+body {
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.75;
+  color: var(--global-text-color);
+  background: var(--global-bg-color);
 }
 
-/* fallback */
-.page {
-  display: block;
+/* CONTENT WIDTH (SAFE) */
+.page__content,
+.archive__content {
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* sticky sidebar */
-@media (min-width: 900px) {
-  .sidebar {
-    position: sticky;
-    top: 80px;
-  }
-}
-
-/* =========================================================
-   PROFILE SECTION (STANFORD STYLE)
-========================================================= */
-
-.author__avatar {
-  text-align: center;
-}
-
-.author__avatar img {
-  width: 190px;
-  height: 190px;
-  object-fit: cover;
-  border-radius: 50%;
-  display: block;
-  margin: 0 auto;
-  border: 3px solid var(--global-border-color);
-  transition: 0.25s ease;
-}
-
-.author__avatar img:hover {
-  transform: scale(1.03);
-}
-
-.author__name,
-.author__bio {
-  text-align: center;
-}
-
-.author__urls-wrapper {
-  text-align: center;
-}
-
-.author__urls {
-  display: inline-block;
-  text-align: left;
-}
-
-/* =========================================================
-   MAIN CONTENT
-========================================================= */
-
-.page__content {
-  max-width: 900px;
-  margin: 0 auto;
-}
-
-.page__content h1 {
+/* HEADINGS */
+h1 {
   font-size: 2.2rem;
   font-weight: 700;
   border-bottom: none;
-  margin-bottom: 1.2rem;
 }
 
-.page__content h2 {
-  font-size: 1.4rem;
+h2 {
+  font-size: 1.5rem;
   font-weight: 650;
-  margin-top: 2.5rem;
-  margin-bottom: 0.8rem;
 }
 
-.page__content p {
-  line-height: 1.75;
-  margin-bottom: 1rem;
+h3 {
+  font-size: 1.15rem;
+  font-weight: 600;
 }
 
-/* =========================================================
-   NAVIGATION (CLEAN ACADEMIC STYLE)
-========================================================= */
-
-.greedy-nav a {
-  font-weight: 500;
-  padding: 0.4rem 0.7rem;
-  border-radius: 4px;
-  transition: 0.2s ease;
-}
-
-.greedy-nav a:hover {
-  background: rgba(0, 0, 0, 0.05);
-}
-
-/* =========================================================
-   LINKS (STANFORD STYLE BLUE)
-========================================================= */
-
+/* LINKS */
 a {
   color: #0056b3;
 }
@@ -165,74 +87,100 @@ a:hover {
   text-decoration: underline;
 }
 
-/* =========================================================
-   UI CLEANUP (REMOVE CARD FEEL)
-========================================================= */
-
-.btn,
-.notice,
-.archive__item,
-.project-card {
-  box-shadow: none !important;
-  border-radius: 0 !important;
-}
-
-/* =========================================================
-   LIST STYLE (ACADEMIC CLEAN)
-========================================================= */
-
-.page__content ul {
-  padding-left: 1.2rem;
+/* LISTS */
+.page__content ul,
+.page__content ol {
+  padding-left: 1.3rem;
 }
 
 .page__content li {
   margin-bottom: 0.4rem;
 }
 
-/* =========================================================
-   PROJECTS (STANFORD LAB STYLE)
-========================================================= */
-
-.project-entry {
-  max-width: 850px;
-  margin: 0 auto;
+/* BUTTON CLEANUP */
+.btn,
+.notice,
+.archive__item {
+  box-shadow: none !important;
+  border-radius: 0 !important;
 }
 
-.project-entry h2 {
+/* NAVIGATION CLEAN */
+.greedy-nav a {
+  font-weight: 500;
+  padding: 0.4rem 0.7rem;
+}
+
+.greedy-nav a:hover {
+  background: rgba(0,0,0,0.05);
+}
+
+/* PROFILE IMAGE (CIRCLE FIXED) */
+.author__avatar img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid var(--global-border-color);
+  display: block;
+  margin: 0 auto;
+  transition: 0.25s ease;
+}
+
+.author__avatar img:hover {
+  transform: scale(1.03);
+}
+
+/* =========================================================
+   PROJECT ENTRY (FIXED + FULLY SCOPED)
+========================================================= */
+
+.page__content .project-entry {
+  max-width: 850px;
+  margin: 0 auto;
+  width: 100%;
+  line-height: 1.75;
+}
+
+/* headings inside project */
+.page__content .project-entry h2 {
   font-size: 1.6rem;
   font-weight: 700;
   margin-top: 1.2rem;
 }
 
-.project-entry h3 {
+.page__content .project-entry h3 {
   font-size: 1.2rem;
   font-weight: 650;
   margin-top: 1.2rem;
 }
 
-.project-entry ul {
-  padding-left: 1.2rem;
+/* text spacing */
+.page__content .project-entry p {
+  margin-bottom: 1rem;
 }
 
-.project-entry li {
+/* lists */
+.page__content .project-entry ul {
+  padding-left: 1.4rem;
+}
+
+.page__content .project-entry li {
   margin-bottom: 0.4rem;
   line-height: 1.6;
 }
 
-.project-entry a {
-  color: #0056b3;
+/* links inside projects */
+.page__content .project-entry a {
+  color: #0056b3 !important;
 }
 
-.project-entry a:hover {
+.page__content .project-entry a:hover {
   text-decoration: underline;
 }
 
-.project-entry p {
-  line-height: 1.75;
-  margin-bottom: 1rem;
-}
-
-.project-entry + .project-entry {
+/* divider between projects */
+.page__content .project-entry + .project-entry {
   border-top: 1px solid var(--global-border-color);
   margin-top: 2rem;
   padding-top: 2rem;
@@ -243,9 +191,10 @@ a:hover {
 ========================================================= */
 
 @media (max-width: 900px) {
-  body.layout--single .page,
-  body.layout--archive .page {
-    display: block;
+  .page__content,
+  .archive__content {
+    max-width: 100%;
+    padding: 0 1rem;
   }
 
   .author__avatar img {
