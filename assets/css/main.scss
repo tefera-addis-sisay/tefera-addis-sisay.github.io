@@ -36,7 +36,8 @@
 ;
 
 /* =========================================================
-   CLEAN MIT-STYLE ACADEMIC DESIGN (DARK-MODE SAFE)
+   CLEAN MIT-STYLE ACADEMIC DESIGN
+   FULL SAFE VERSION (LIGHT + DARK + DESKTOP FIXED)
 ========================================================= */
 
 /* ---------------------------------------------------------
@@ -116,7 +117,7 @@ li {
 }
 
 /* ---------------------------------------------------------
-   Navigation (clean + subtle)
+   Navigation
 --------------------------------------------------------- */
 
 .masthead {
@@ -146,7 +147,7 @@ li {
 }
 
 /* ---------------------------------------------------------
-   Profile Image (professional, subtle)
+   Profile Image
 --------------------------------------------------------- */
 
 .author__avatar {
@@ -214,7 +215,7 @@ li {
 }
 
 /* ---------------------------------------------------------
-   Archive Cards (kept minimal)
+   Archive Items
 --------------------------------------------------------- */
 
 .archive__item {
@@ -234,7 +235,7 @@ table {
 }
 
 /* ---------------------------------------------------------
-   Remove heavy shadows (clean academic look)
+   Remove heavy shadows (clean academic style)
 --------------------------------------------------------- */
 
 .btn,
@@ -261,9 +262,9 @@ code {
   border-top: 1px solid rgba(0, 0, 0, 0.08);
 }
 
-/* ---------------------------------------------------------
-   DARK MODE FIXES (IMPORTANT)
---------------------------------------------------------- */
+/* =========================================================
+   DARK MODE FIXES (CRITICAL)
+========================================================= */
 
 [data-theme="dark"] .masthead {
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
@@ -278,14 +279,50 @@ code {
   box-shadow: 0 4px 18px rgba(0, 0, 0, 0.5);
 }
 
-/* Optional: smoother nav hover in dark mode */
 [data-theme="dark"] .greedy-nav a:hover {
   opacity: 0.85;
 }
 
-/* ---------------------------------------------------------
+/* =========================================================
+   DESKTOP READABILITY FIX (IMPORTANT)
+========================================================= */
+
+@media (min-width: 901px) {
+
+  .page__content,
+  .archive__content {
+    max-width: 760px;
+    line-height: 1.85;
+  }
+
+  p {
+    font-size: 1.02rem;
+  }
+
+  h1,
+  .page__title {
+    font-size: 2.4rem;
+    letter-spacing: -0.04em;
+  }
+
+  h2 {
+    font-size: 1.65rem;
+  }
+
+  .page__content,
+  .archive__content {
+    color: rgba(0, 0, 0, 0.82);
+  }
+
+  [data-theme="dark"] .page__content,
+  [data-theme="dark"] .archive__content {
+    color: rgba(255, 255, 255, 0.85);
+  }
+}
+
+/* =========================================================
    MOBILE
---------------------------------------------------------- */
+========================================================= */
 
 @media (max-width: 900px) {
 
