@@ -1,318 +1,342 @@
-/*
-
-* Jekyll / Minimal Mistakes core imports
-* (DO NOT REMOVE)
-  */
+---
+---
 
 @import
-"vendor/breakpoint/breakpoint",
+  "vendor/breakpoint/breakpoint",
 
-```
-"themes",
-"theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
-"theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
+  "themes",
+  "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
+  "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
 
-"include/mixins",
-"vendor/susy/susy",
+  "include/mixins",
+  "vendor/susy/susy",
 
-"layout/reset",
-"layout/base",
+  "layout/reset",
+  "layout/base",
 
-"include/utilities",
-"layout/tables",
-"layout/buttons",
-"layout/notices",
-"layout/masthead",
-"layout/navigation",
-"layout/footer",
-"syntax",
+  "include/utilities",
+  "layout/tables",
+  "layout/buttons",
+  "layout/notices",
+  "layout/masthead",
+  "layout/navigation",
+  "layout/footer",
+  "syntax",
 
-"layout/forms",
+  "layout/forms",
 
-"layout/page",
-"layout/archive",
-"layout/sidebar",
-"layout/json_cv",
+  "layout/page",
+  "layout/archive",
+  "layout/sidebar",
+  "layout/json_cv",
 
-"vendor/font-awesome/fontawesome",
-"vendor/font-awesome/solid",
-"vendor/font-awesome/brands"
-```
-
+  "vendor/font-awesome/fontawesome",
+  "vendor/font-awesome/solid",
+  "vendor/font-awesome/brands"
 ;
-
 /* =========================================================
-BASE TYPOGRAPHY
+   PREMIUM ACADEMIC HOMEPAGE STYLE
 ========================================================= */
+
+/* ---------- Global ---------- */
 
 body {
-font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
-font-size: 16.5px;
-line-height: 1.75;
-letter-spacing: 0.1px;
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.8;
+  color: #2c2c2c;
+  background: #fafbfc;
 }
 
-/* content width */
+/* Main Content */
+
 .page__content,
 .archive__content {
-max-width: 850px;
-margin-left: auto;
-margin-right: auto;
+  max-width: 900px;
+  margin: auto;
 }
 
-/* =========================================================
-TYPOGRAPHY
-========================================================= */
+/* ---------- Typography ---------- */
 
-h1 {
-font-size: 2.35rem;
-font-weight: 750;
-line-height: 1.2;
-letter-spacing: -0.6px;
-margin-bottom: 1.2rem;
-border-bottom: none;
+h1,
+.page__title {
+  font-size: 2.8rem;
+  font-weight: 800;
+  letter-spacing: -1px;
+  color: #111827;
+  margin-bottom: 1rem;
 }
 
 h2 {
-font-size: 1.55rem;
-font-weight: 700;
-line-height: 1.35;
-margin-top: 2.2rem;
-margin-bottom: 0.8rem;
-letter-spacing: -0.3px;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-top: 2.5rem;
+  color: #1f2937;
+  border-bottom: 2px solid #e5e7eb;
+  padding-bottom: .4rem;
 }
 
 h3 {
-font-size: 1.15rem;
-font-weight: 650;
-margin-top: 1.4rem;
-margin-bottom: 0.6rem;
+  font-size: 1.2rem;
+  font-weight: 650;
+  color: #374151;
 }
 
-h4 {
-font-size: 1.05rem;
-font-weight: 600;
+/* Paragraphs */
+
+.page__content p,
+.archive__item-excerpt {
+  color: #4b5563;
+  line-height: 1.9;
 }
 
-p {
-margin-bottom: 1rem;
-line-height: 1.75;
-max-width: 75ch;
+/* ---------- Links ---------- */
+
+.page__content a,
+.archive a {
+  color: #0056b3;
+  text-decoration: none;
+  transition: all .25s ease;
 }
 
-/* =========================================================
-CONTENT LINKS ONLY
-========================================================= */
-
-.page__content a {
-color: #0056b3;
-text-decoration: none;
-border-bottom: 1px solid rgba(0, 86, 179, 0.25);
-transition: all 0.2s ease;
-}
-
-.page__content a:hover {
-border-bottom: 1px solid #0056b3;
+.page__content a:hover,
+.archive a:hover {
+  color: #003f85;
 }
 
 /* =========================================================
-LISTS
+   TOP NAVIGATION
 ========================================================= */
 
-.page__content ul,
-.page__content ol {
-padding-left: 1.4rem;
+.masthead {
+  background: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+  box-shadow: 0 2px 15px rgba(0,0,0,.04);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
-.page__content li {
-margin-bottom: 0.4rem;
-line-height: 1.65;
+.greedy-nav {
+  background: transparent;
 }
-
-/* =========================================================
-BUTTONS
-========================================================= */
-
-.btn,
-.notice,
-.archive__item {
-box-shadow: none !important;
-border-radius: 0 !important;
-}
-
-/* =========================================================
-NAVIGATION
-========================================================= */
 
 .greedy-nav a {
-font-weight: 500;
-padding: 0.4rem 0.7rem;
+  font-weight: 600;
+  font-size: 15px;
+  color: #374151;
+  transition: .25s;
+  padding: .75rem 1rem;
 }
 
 .greedy-nav a:hover {
-background: rgba(0,0,0,0.05);
+  color: #0056b3;
+}
+
+.site-title {
+  font-weight: 800;
+  font-size: 1.2rem;
 }
 
 /* =========================================================
-SIDEBAR PROFILE
+   SIDEBAR
 ========================================================= */
 
-.author__avatar {
-text-align: left;
-margin-bottom: 1rem;
+.sidebar {
+  padding-top: 1rem;
 }
 
+.author__content {
+  text-align: center;
+}
+
+.author__avatar {
+  margin-bottom: 1.2rem;
+}
+
+/* Profile Picture */
+
 .author__avatar img {
-width: 170px;
-height: 170px;
-object-fit: cover;
-border-radius: 50%;
-border: 3px solid var(--global-border-color, #ddd);
-display: block;
-margin: 0;
-transition: 0.25s ease;
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+
+  border-radius: 50%;
+
+  border: 6px solid white;
+
+  box-shadow:
+    0 15px 40px rgba(0,0,0,.12),
+    0 5px 15px rgba(0,0,0,.08);
+
+  transition: all .35s ease;
 }
 
 .author__avatar img:hover {
-transform: scale(1.03);
+  transform: scale(1.03);
 }
+
+/* Sidebar Card */
+
+.author__content,
+.author__urls-wrapper {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 1.4rem;
+  box-shadow: 0 8px 25px rgba(0,0,0,.06);
+}
+
+/* Name */
 
 .author__name {
-font-size: 1.25rem;
-font-weight: 700;
-text-align: left !important;
-margin-top: 0.8rem;
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: #111827;
+  margin-top: .5rem;
 }
 
+/* Bio */
+
 .author__bio {
-font-size: 0.95rem;
-opacity: 0.85;
-text-align: left !important;
-line-height: 1.5;
-margin-top: 0.4rem;
+  color: #6b7280;
+  font-size: .95rem;
+  line-height: 1.7;
 }
 
 /* =========================================================
-RESTORE DEFAULT ACADEMIC PAGES SOCIAL LINKS
+   SOCIAL LINKS
 ========================================================= */
 
-.author__urls-wrapper {
-text-align: left;
-margin-top: 1rem;
-}
-
 .author__urls {
-list-style: none;
-padding-left: 0;
-margin: 1rem 0 0 0;
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
 }
 
 .author__urls li {
-margin-bottom: 0.35rem;
-line-height: 1.5;
+  margin-bottom: .7rem;
 }
 
 .author__urls a {
-display: inline-flex;
-align-items: center;
-color: inherit !important;
-text-decoration: none !important;
-border: none !important;
+  display: flex;
+  align-items: center;
+
+  padding: .7rem .9rem;
+
+  border-radius: 12px;
+
+  transition: all .25s ease;
+
+  color: #374151;
+  text-decoration: none;
 }
 
 .author__urls a:hover {
-text-decoration: underline !important;
+  background: #f3f4f6;
+  transform: translateX(4px);
 }
 
 .author__urls i,
 .author__urls .fa,
 .author__urls .fab,
 .author__urls .fas {
-width: 1.25rem;
-text-align: center;
-margin-right: 0.45rem;
+  width: 22px;
+  margin-right: 10px;
+  color: #0056b3;
 }
 
 /* =========================================================
-PROJECT ENTRIES
+   ARCHIVE / PROJECT CARDS
 ========================================================= */
 
-.page__content .project-entry {
-max-width: 850px;
-margin: 0 auto;
-padding: 0 1rem;
-line-height: 1.8;
+.archive__item {
+  background: white;
+
+  border-radius: 18px;
+
+  padding: 1.5rem;
+
+  margin-bottom: 1.5rem;
+
+  box-shadow: 0 4px 18px rgba(0,0,0,.06);
+
+  transition: all .3s ease;
 }
 
-.page__content .project-entry h2 {
-font-size: 2rem;
-font-weight: 700;
-margin-top: 0.5rem;
-margin-bottom: 1.2rem;
+.archive__item:hover {
+  transform: translateY(-6px);
+
+  box-shadow: 0 15px 35px rgba(0,0,0,.10);
 }
 
-.page__content .project-entry h3 {
-font-size: 1.25rem;
-font-weight: 650;
-margin-top: 2rem;
-margin-bottom: 0.6rem;
+.archive__item-title {
+  font-weight: 700;
+  color: #111827;
 }
 
-.page__content .project-entry p {
-margin-bottom: 1rem;
-}
-
-.page__content .project-entry ul,
-.page__content .project-entry ol {
-padding-left: 1.4rem;
-margin-bottom: 1rem;
-}
-
-.page__content .project-entry li {
-margin-bottom: 0.4rem;
-}
-
-.page__content .project-entry a {
-color: #0056b3;
-}
-
-.page__content .project-entry a:hover {
-text-decoration: underline;
-}
-
-.page__content .project-entry + .project-entry {
-border-top: 1px solid #ddd;
-margin-top: 2rem;
-padding-top: 2rem;
+.archive__item-title a {
+  text-decoration: none;
 }
 
 /* =========================================================
-MOBILE
+   BUTTONS
+========================================================= */
+
+.btn,
+.btn--primary {
+  border-radius: 12px;
+  padding: .8rem 1.3rem;
+  font-weight: 600;
+  transition: all .25s ease;
+}
+
+.btn--primary:hover {
+  transform: translateY(-2px);
+}
+
+/* =========================================================
+   TABLES
+========================================================= */
+
+table {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 3px 12px rgba(0,0,0,.05);
+}
+
+/* =========================================================
+   FOOTER
+========================================================= */
+
+.page__footer {
+  border-top: 1px solid #e5e7eb;
+  margin-top: 4rem;
+  background: white;
+}
+
+/* =========================================================
+   MOBILE
 ========================================================= */
 
 @media (max-width: 900px) {
-.page__content,
-.archive__content {
-max-width: 100%;
-padding: 0 1rem;
-}
 
-.author__avatar img {
-width: 150px;
-height: 150px;
-}
-}
+  .author__avatar img {
+    width: 170px;
+    height: 170px;
+  }
 
-/* =========================================================
-DARK MODE
-========================================================= */
+  .page__title,
+  h1 {
+    font-size: 2.2rem;
+  }
 
-@media (prefers-color-scheme: dark) {
-.page__content a {
-color: #7ab7ff;
-}
+  .page__content,
+  .archive__content {
+    padding: 0 1rem;
+  }
 
-.greedy-nav a:hover {
-background: rgba(255,255,255,0.05);
-}
+  .author__content,
+  .author__urls-wrapper {
+    border-radius: 15px;
+  }
 }
