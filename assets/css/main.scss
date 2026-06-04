@@ -36,8 +36,7 @@
 ;
 
 /* =========================================================
-   CLEAN MIT-STYLE ACADEMIC DESIGN
-   Safe for Academic Pages
+   CLEAN MIT-STYLE ACADEMIC DESIGN (DARK-MODE SAFE)
 ========================================================= */
 
 /* ---------------------------------------------------------
@@ -54,8 +53,6 @@ body {
 
   font-size: 17px;
   line-height: 1.75;
-
-  color: #2f343b;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -80,14 +77,12 @@ h1,
   font-weight: 700;
   line-height: 1.2;
   letter-spacing: -0.03em;
-
   margin-bottom: 1rem;
 }
 
 h2 {
   font-size: 1.55rem;
   font-weight: 650;
-
   margin-top: 2.5rem;
   margin-bottom: 0.75rem;
 }
@@ -121,7 +116,7 @@ li {
 }
 
 /* ---------------------------------------------------------
-   Navigation
+   Navigation (clean + subtle)
 --------------------------------------------------------- */
 
 .masthead {
@@ -135,13 +130,7 @@ li {
 .greedy-nav a {
   font-weight: 500;
   font-size: 0.95rem;
-
-  padding-left: 0.9rem;
-  padding-right: 0.9rem;
-}
-
-.greedy-nav a:hover {
-  text-decoration: none;
+  padding: 0.6rem 0.9rem;
 }
 
 .site-title {
@@ -157,7 +146,7 @@ li {
 }
 
 /* ---------------------------------------------------------
-   Profile Picture
+   Profile Image (professional, subtle)
 --------------------------------------------------------- */
 
 .author__avatar {
@@ -174,8 +163,7 @@ li {
 
   border: 3px solid #ffffff;
 
-  box-shadow:
-    0 2px 8px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
 
   transition: transform 0.2s ease;
 }
@@ -185,13 +173,12 @@ li {
 }
 
 /* ---------------------------------------------------------
-   Author Information
+   Author Info
 --------------------------------------------------------- */
 
 .author__name {
   font-size: 1.4rem;
   font-weight: 700;
-
   margin-top: 0.5rem;
   margin-bottom: 0.35rem;
 }
@@ -227,7 +214,7 @@ li {
 }
 
 /* ---------------------------------------------------------
-   Archive Pages
+   Archive Cards (kept minimal)
 --------------------------------------------------------- */
 
 .archive__item {
@@ -236,10 +223,6 @@ li {
 
 .archive__item-title {
   font-weight: 650;
-}
-
-.archive__item-excerpt {
-  margin-top: 0.35rem;
 }
 
 /* ---------------------------------------------------------
@@ -251,18 +234,17 @@ table {
 }
 
 /* ---------------------------------------------------------
-   Buttons
+   Remove heavy shadows (clean academic look)
 --------------------------------------------------------- */
 
 .btn,
-.btn--primary,
 .notice,
 .archive__item {
   box-shadow: none !important;
 }
 
 /* ---------------------------------------------------------
-   Code Blocks
+   Code
 --------------------------------------------------------- */
 
 pre,
@@ -280,7 +262,29 @@ code {
 }
 
 /* ---------------------------------------------------------
-   Mobile
+   DARK MODE FIXES (IMPORTANT)
+--------------------------------------------------------- */
+
+[data-theme="dark"] .masthead {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+[data-theme="dark"] .page__footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+[data-theme="dark"] .author__avatar img {
+  border-color: rgba(255, 255, 255, 0.12);
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.5);
+}
+
+/* Optional: smoother nav hover in dark mode */
+[data-theme="dark"] .greedy-nav a:hover {
+  opacity: 0.85;
+}
+
+/* ---------------------------------------------------------
+   MOBILE
 --------------------------------------------------------- */
 
 @media (max-width: 900px) {
