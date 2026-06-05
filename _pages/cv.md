@@ -20,8 +20,9 @@ hide_title: true
 
 ## Professional Experience
 
-* Lecturer — Bahir Dar Institute of Technology, [Bahir Dar University](https://www.bdu.edu.et/), Ethiopia (2019–2021, 2026–Present)
+* Lecturer — Bahir Dar Institute of Technology, [Bahir Dar University](https://www.bdu.edu.et/), Ethiopia (2019–2021, 2026–Present)  
 * Software Engineer Intern — Information Network Security Agency (INSA), Ethiopia (Sep. 2018–Jan. 2019)
+
 ---
 
 ## Research Experience
@@ -51,5 +52,3 @@ hide_title: true
 **Visualization & Monitoring:** Grafana  
 **Infrastructure:** Docker, Kubernetes (Minikube), Linux  
 **Domains:** Cybersecurity, O-RAN, AI/ML for networks, distributed systems, telecom analytics  
-
----
