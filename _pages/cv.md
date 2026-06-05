@@ -52,3 +52,9 @@ hide_title: true
 **Visualization & Monitoring:** Grafana  
 **Infrastructure:** Docker, Kubernetes (Minikube), Linux  
 **Domains:** Cybersecurity, O-RAN, AI/ML for networks, distributed systems, telecom analytics  
+
+## Languages
+
+* Amharic — Native
+* English — Fluent (research and teaching)
+* Italian — Intermediate 
