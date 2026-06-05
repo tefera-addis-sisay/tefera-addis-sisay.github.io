@@ -12,9 +12,9 @@ hide_title: true
 
 ## Education
 
-* MEng in Information Systems Technology and Design — [Singapore University of Technology and Design (SUTD)](https://www.sutd.edu.sg), Singapore (2026)  
-* MSc in Computer Science — [University of Trento](https://www.unitn.it/en), Italy (2024)  
-* BSc in Software Engineering — [Bahir Dar University](https://www.bdu.edu.et/), Ethiopia (2019)  
+* MEng in Information Systems Technology and Design — [Singapore University of Technology and Design (SUTD)](https://www.sutd.edu.sg), Singapore (2024 - 2026)  
+* MSc in Computer Science — [University of Trento](https://www.unitn.it/en), Italy (2021 - 2023)  
+* BSc in Software Engineering — [Bahir Dar University](https://www.bdu.edu.et/), Ethiopia (2014 - 2019)  
 
 ---
 
