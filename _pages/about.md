@@ -9,9 +9,7 @@ redirect_from:
   - /about.html
 ---
 
-# Tefera Addis Sisay
-
-Tefera Addis Sisay is a Lecturer at [Bahir Dar University](https://www.bdu.edu.et), Ethiopia. He holds an MEng in Information Systems Technology and Design from the [Singapore University of Technology and Design (SUTD)](https://www.sutd.edu.sg), and an MSc in Computer Science from the [University of Trento](https://www.unitn.it/en).
+Tefera Addis Sisay is a Lecturer at [Bahir Dar University](https://www.bdu.edu.et/), Ethiopia. He holds an MEng in Information Systems Technology and Design from the [Singapore University of Technology and Design (SUTD)](https://www.sutd.edu.sg), an MSc in Computer Science from the [University of Trento](https://www.unitn.it/en), and a BSc in Software Engineering from [Bahir Dar University](https://www.bdu.edu.et/), Ethiopia.
 
 His research focuses on cybersecurity and AI-driven communication systems, with emphasis on O-RAN security, anomaly detection, and performance degradation analysis in next-generation mobile networks using Non-RT RIC architectures. His work spans intelligent networked systems, secure cyber-physical infrastructures, and data-driven network automation.
 
