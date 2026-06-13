@@ -20,8 +20,8 @@ hide_title: true
 
 ## Professional Experience
 
-* Lecturer — Bahir Dar Institute of Technology, [Bahir Dar University](https://www.bdu.edu.et/), Ethiopia (2019–2021, 2026–Present)  
-* Software Engineer Intern — Information Network Security Agency (INSA), Ethiopia (Sep. 2018–Jan. 2019)
+* Lecturer — Bahir Dar Institute of Technology, [Bahir Dar University](https://www.bdu.edu.et/), Ethiopia (2019 – 2021, 2026 – Present)  
+* Software Engineer Intern — Information Network Security Administration (INSA), Ethiopia (Sep. 2018 – Jan. 2019)
 
 ---
 
