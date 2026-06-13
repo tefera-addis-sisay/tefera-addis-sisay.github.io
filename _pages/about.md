@@ -24,10 +24,11 @@ Cyber-physical systems, IoT, distributed systems, and cloud-native network archi
 
 ## News
 
-- **2026** — Program Committee member: ESEC/FSE, ASE, ISSTA, SANER  
-- **2025** — IEEE TSE paper accepted on directed grammar-based fuzzing  
-- **2025** — SUTD–SMU joint grant awarded (SGD 250K) on agentic legacy system evolution  
-- **2025** — ACM CSUR survey accepted on software fairness  
+* **2026** — Research on O-RAN / Non-RT RIC for performance degradation detection and anomaly analysis in next-generation RAN systems
+* **2026** — Ongoing work on security testing, hardening, and attack detection for VES Collector and O-RAN telemetry pipelines using InfluxDB and Grafana
+* **2025** — Developed a Python-based VES Collector for real-time reception and processing of VES events from RAN nodes
+* **2025** — Research on deep learning for neuroscience-inspired computing, focusing on Spiking Neural Networks (SNNs) using Nengo and FPGA-based inference
+* **2025** — Built experimental frameworks for network monitoring, traffic analysis, and attack simulation in containerized O-RAN environments (Minikube / Docker)
 
 ---
 
